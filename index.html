@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biojet Nigeria - SAF Market Intelligence Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#1a202e',
+                            950: '#0f1419'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-800 border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-emerald-400">Biojet Nigeria</h1>
+                    <p class="text-sm text-slate-400">SAF Market Intelligence Platform</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full text-sm border border-emerald-500/20">
+                        Live Intelligence
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-slate-800 to-slate-900 border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
+                    Accelerating Decarbonization of West African Aviation
+                </h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Real-time intelligence on sustainable aviation fuel feedstocks, regulations, and market opportunities across Nigeria and West Africa
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Cards -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Biomass Price Index Card -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-6 hover:border-emerald-500/50 transition-colors">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wide">Biomass Price Index</h3>
+                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span class="text-4xl font-bold text-emerald-400">₦18,500</span>
+                    <span class="text-sm text-slate-400">/tonne</span>
+                </div>
+                <p class="text-sm text-slate-500 mt-2">Cassava peel average (7-day)</p>
+            </div>
+
+            <!-- Regulatory Alerts Card -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-6 hover:border-blue-500/50 transition-colors">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wide">Regulatory Alerts</h3>
+                    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                    </svg>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span class="text-4xl font-bold text-blue-400">3</span>
+                    <span class="text-sm text-slate-400">active</span>
+                </div>
+                <p class="text-sm text-slate-500 mt-2">ICAO, NCAA updates pending</p>
+            </div>
+
+            <!-- Funding Tracker Card -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-6 hover:border-purple-500/50 transition-colors">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-slate-400 text-sm font-medium uppercase tracking-wide">Funding Tracker</h3>
+                    <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span class="text-4xl font-bold text-purple-400">7</span>
+                    <span class="text-sm text-slate-400">opportunities</span>
+                </div>
+                <p class="text-sm text-slate-500 mt-2">Climate funds, grants available</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nigerian SAF Opportunity Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-gradient-to-br from-emerald-900/20 to-blue-900/20 rounded-lg border border-emerald-500/30 p-8">
+            <h2 class="text-2xl font-bold mb-6 text-emerald-400">The Nigerian SAF Opportunity</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-slate-200">Cassava Production Capacity</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-slate-300">Annual Production</span>
+                            <span class="text-2xl font-bold text-emerald-400">60M tonnes/year</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-emerald-500 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <p class="text-sm text-slate-400">Nigeria is the world's largest cassava producer</p>
+                    </div>
+                    <div class="mt-6 space-y-2 text-sm text-slate-300">
+                        <p>• <span class="text-emerald-400 font-semibold">40-50%</span> processing waste (peels, stems)</p>
+                        <p>• <span class="text-blue-400 font-semibold">24-30M tonnes</span> available biomass annually</p>
+                        <p>• Potential for <span class="text-purple-400 font-semibold">2-4M tonnes</span> SAF production</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-slate-200">Market Dynamics</h3>
+                    <div class="space-y-4">
+                        <div class="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
+                            <div class="flex items-center space-x-2 mb-2">
+                                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                                <span class="font-medium text-slate-200">Feedstock Advantage</span>
+                            </div>
+                            <p class="text-sm text-slate-400">Abundant agricultural waste streams reduce production costs by 30-40%</p>
+                        </div>
+                        <div class="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
+                            <div class="flex items-center space-x-2 mb-2">
+                                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                <span class="font-medium text-slate-200">Strategic Location</span>
+                            </div>
+                            <p class="text-sm text-slate-400">Proximity to ECOWAS aviation markets and Atlantic shipping routes</p>
+                        </div>
+                        <div class="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
+                            <div class="flex items-center space-x-2 mb-2">
+                                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                <span class="font-medium text-slate-200">Policy Momentum</span>
+                            </div>
+                            <p class="text-sm text-slate-400">Growing regulatory support from NCAA and regional aviation bodies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agent Status Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-2xl font-bold mb-6 text-slate-200">Intelligence Agents</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Agent 1 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Feedstock Watchdog</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Monitors cassava peel prices across 12 markets</p>
+                <div class="text-xs text-slate-500">Last scan: 2 hours ago</div>
+            </div>
+
+            <!-- Agent 2 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Regulatory Sentinel</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Tracks ICAO, NCAA, ECOWAS policy updates</p>
+                <div class="text-xs text-slate-500">Last scan: 1 hour ago</div>
+            </div>
+
+            <!-- Agent 3 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Climate Finance Tracker</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Identifies SAF funding opportunities</p>
+                <div class="text-xs text-slate-500">Last scan: 30 minutes ago</div>
+            </div>
+
+            <!-- Agent 4 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Aviation Demand Monitor</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Analyzes regional jet fuel consumption</p>
+                <div class="text-xs text-slate-500">Last scan: 4 hours ago</div>
+            </div>
+
+            <!-- Agent 5 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Technology Scout</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Tracks conversion technology advances</p>
+                <div class="text-xs text-slate-500">Last scan: 6 hours ago</div>
+            </div>
+
+            <!-- Agent 6 -->
+            <div class="bg-slate-800 rounded-lg border border-slate-700 p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="font-semibold text-slate-200">Partnership Radar</h3>
+                    <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded text-xs border border-emerald-500/20">Active</span>
+                </div>
+                <p class="text-sm text-slate-400 mb-2">Maps stakeholder landscape & collaborations</p>
+                <div class="text-xs text-slate-500">Last scan: 3 hours ago</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 border-t border-slate-700 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-emerald-400">Biojet Nigeria</h3>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Research-focused intelligence platform for sustainable aviation fuel development in West Africa
+                    </p>
+                    <a href="https://www.linkedin.com/company/biojet-nigeria-limited/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        <span class="text-sm">Follow us on LinkedIn</span>
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-slate-200">Disclaimer</h3>
+                    <div class="bg-slate-900/50 rounded-lg p-4 border border-slate-700">
+                        <p class="text-sm text-slate-400">
+                            Biojet Nigeria is a research-focused entity. We do not currently offer commercial consultancy services.
+                            This platform provides market intelligence for informational purposes only.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-slate-700 text-center text-sm text-slate-500">
+                <p>&copy; 2025 Biojet Nigeria Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
