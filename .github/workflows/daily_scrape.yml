@@ -1,0 +1,34 @@
+name: Daily Feedstock Watchdog
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Feedstock Watchdog (mock)
+        run: |
+          python agents/feedstock_watchdog.py
+
+      - name: Upload price records artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: feedstock-prices
+          path: data/prices.json
+          if-no-files-found: warn
