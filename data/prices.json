@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2025-12-15T19:45:49.040575+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23280,
+    "mode": "mock"
+  }
+]
