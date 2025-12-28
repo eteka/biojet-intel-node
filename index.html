@@ -75,8 +75,9 @@
         <div class="grid md:grid-cols-3 gap-6">
           <div class="glass rounded-2xl p-5 border border-emerald-500/20">
             <p class="text-sm text-slate-400">Biomass Price Index</p>
-            <h3 class="text-3xl font-semibold text-emerald-300 mt-2">₦18,500</h3>
-            <p class="text-xs text-slate-500 mt-3">Median cassava peel &amp; residue value per tonne (monitoring weekly volatility).</p>
+            <h3 class="text-3xl font-semibold text-emerald-300 mt-2" id="latest-price">₦--,---</h3>
+            <p class="text-xs text-slate-500 mt-1" id="last-updated">Loading...</p>
+            <p class="text-xs text-slate-500 mt-2">Median cassava peel &amp; residue value per tonne (monitoring weekly volatility).</p>
           </div>
           <div class="glass rounded-2xl p-5 border border-blue-500/20">
             <p class="text-sm text-slate-400">Regulatory Alerts</p>
@@ -190,5 +191,50 @@
       </div>
     </footer>
   </div>
+
+  <script>
+    // Fetch and display latest cassava peel price from data/prices.json
+    async function loadLatestPrice() {
+      try {
+        const response = await fetch('data/prices.json');
+        if (!response.ok) throw new Error('Failed to fetch price data');
+
+        const prices = await response.json();
+
+        // Find the most recent entry (latest timestamp)
+        const latestEntry = prices.reduce((latest, current) => {
+          return new Date(current.timestamp) > new Date(latest.timestamp) ? current : latest;
+        });
+
+        // Format price with thousands separator
+        const formattedPrice = '₦' + latestEntry.price_per_tonne.toLocaleString('en-NG');
+
+        // Format timestamp
+        const date = new Date(latestEntry.timestamp);
+        const formattedDate = date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+        const formattedTime = date.toLocaleTimeString('en-US', {
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false
+        });
+
+        // Update DOM
+        document.getElementById('latest-price').textContent = formattedPrice;
+        document.getElementById('last-updated').textContent = `Last updated: ${formattedDate} at ${formattedTime} UTC`;
+
+      } catch (error) {
+        console.error('Error loading price data:', error);
+        document.getElementById('latest-price').textContent = '₦--,---';
+        document.getElementById('last-updated').textContent = 'Unable to load latest price';
+      }
+    }
+
+    // Load price data when page loads
+    loadLatestPrice();
+  </script>
 </body>
 </html>
