@@ -1,4 +1,4 @@
-name: Daily Feedstock Watchdog
+name: Daily Intelligence Update
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  run-watchdog:
+  run-intelligence-agents:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -29,17 +29,23 @@ jobs:
         run: |
           python agents/feedstock_watchdog.py
 
-      - name: Commit updated prices
+      - name: Run Regulatory Sentry (mock)
+        run: |
+          python agents/regulatory_sentry.py
+
+      - name: Commit updated data
         run: |
           git config user.name "SAF HUB Bot"
           git config user.email "bot@biojet.ng"
-          git add data/prices.json
-          git commit -m "📊 Daily feedstock price update" || echo "No changes to commit"
+          git add data/prices.json data/regulatory_alerts.json
+          git commit -m "📊 Daily intelligence update" || echo "No changes to commit"
           git push
 
-      - name: Upload price records artifact
+      - name: Upload intelligence data artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: feedstock-prices
-          path: data/prices.json
+          name: intelligence-data
+          path: |
+            data/prices.json
+            data/regulatory_alerts.json
           if-no-files-found: warn
