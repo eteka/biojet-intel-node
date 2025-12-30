@@ -11,10 +11,33 @@
   <style>
     body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
     .glass { background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(148, 163, 184, 0.15); box-shadow: 0 20px 80px rgba(8, 47, 73, 0.35); backdrop-filter: blur(12px); }
+
+    /* Toggle Switch Styles */
+    .toggle-switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+    .toggle-switch input { opacity: 0; width: 0; height: 0; }
+    .toggle-slider {
+      position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #475569; border-radius: 24px; transition: 0.3s;
+    }
+    .toggle-slider:before {
+      position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px;
+      background-color: white; border-radius: 50%; transition: 0.3s;
+    }
+    input:checked + .toggle-slider { background-color: #10b981; }
+    input:checked + .toggle-slider:before { transform: translateX(20px); }
   </style>
 </head>
 <body class="h-full">
   <div class="min-h-screen flex flex-col bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+    <!-- Demo Mode Banner -->
+    <div id="demo-banner" class="hidden bg-gradient-to-r from-amber-500/20 via-orange-500/20 to-amber-500/20 border-b border-amber-500/30 py-2 px-6">
+      <div class="max-w-6xl mx-auto flex items-center justify-center gap-2 text-sm">
+        <span class="text-amber-200">📊 Demo Mode</span>
+        <span class="text-amber-100/80">—</span>
+        <span class="text-slate-300">Sample data shown for illustration</span>
+      </div>
+    </div>
+
     <header class="relative overflow-hidden">
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(52,211,153,0.15),transparent_25%),radial-gradient(circle_at_80%_0%,rgba(59,130,246,0.12),transparent_25%)]"></div>
       <div class="max-w-6xl mx-auto px-6 py-14 relative z-10">
@@ -26,7 +49,16 @@
               <h1 class="text-3xl md:text-4xl font-semibold text-slate-50">West Africa's SAF Market Intelligence Platform</h1>
             </div>
           </div>
-          <a href="https://www.linkedin.com/company/biojet-nigeria-limited/" class="hidden md:inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-emerald-500 to-blue-500 text-slate-900 shadow-md shadow-emerald-500/30 hover:-translate-y-0.5 transition">LinkedIn</a>
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2 bg-slate-800/50 px-3 py-2 rounded-xl border border-slate-700/50">
+              <span class="text-xs text-slate-300">Demo Mode</span>
+              <label class="toggle-switch">
+                <input type="checkbox" id="demo-mode-toggle" checked>
+                <span class="toggle-slider"></span>
+              </label>
+            </div>
+            <a href="https://www.linkedin.com/company/biojet-nigeria-limited/" class="hidden md:inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-gradient-to-r from-emerald-500 to-blue-500 text-slate-900 shadow-md shadow-emerald-500/30 hover:-translate-y-0.5 transition">LinkedIn</a>
+          </div>
         </div>
         <div class="mt-12 grid md:grid-cols-2 gap-8 items-center">
           <div class="space-y-6">
@@ -209,13 +241,60 @@
   </div>
 
   <script>
+    // Demo Mode Toggle Management
+    let isDemoMode = true;
+
+    function initDemoMode() {
+      // Load preference from localStorage (default to true/demo mode)
+      const saved = localStorage.getItem('safhub-demo-mode');
+      isDemoMode = saved === null ? true : saved === 'true';
+
+      // Set toggle state
+      const toggle = document.getElementById('demo-mode-toggle');
+      toggle.checked = isDemoMode;
+
+      // Update banner visibility
+      updateDemoBanner();
+
+      // Add event listener
+      toggle.addEventListener('change', function() {
+        isDemoMode = this.checked;
+        localStorage.setItem('safhub-demo-mode', isDemoMode);
+        updateDemoBanner();
+        // Reload all data
+        loadLatestPrice();
+        loadRegulatoryAlerts();
+      });
+    }
+
+    function updateDemoBanner() {
+      const banner = document.getElementById('demo-banner');
+      if (isDemoMode) {
+        banner.classList.remove('hidden');
+      } else {
+        banner.classList.add('hidden');
+      }
+    }
+
     // Fetch and display latest cassava peel price from data/prices.json
     async function loadLatestPrice() {
       try {
         const response = await fetch('data/prices.json');
         if (!response.ok) throw new Error('Failed to fetch price data');
 
-        const prices = await response.json();
+        let prices = await response.json();
+
+        // Filter by mode
+        if (!isDemoMode) {
+          prices = prices.filter(p => p.mode === 'live');
+        }
+
+        // Check if we have data
+        if (prices.length === 0) {
+          document.getElementById('latest-price').textContent = '₦--,---';
+          document.getElementById('last-updated').textContent = 'No live data yet — agents collecting daily';
+          return;
+        }
 
         // Find the most recent entry (latest timestamp)
         const latestEntry = prices.reduce((latest, current) => {
@@ -224,6 +303,12 @@
 
         // Format price with thousands separator
         const formattedPrice = '₦' + latestEntry.price_per_tonne.toLocaleString('en-NG');
+
+        // Determine badge
+        const isLive = latestEntry.mode === 'live';
+        const badge = isLive
+          ? '<span class="ml-2 px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-200 text-xs font-medium">LIVE</span>'
+          : '<span class="ml-2 px-2 py-0.5 rounded-md bg-slate-500/20 text-slate-400 text-xs font-medium">DEMO</span>';
 
         // Format timestamp
         const date = new Date(latestEntry.timestamp);
@@ -239,7 +324,7 @@
         });
 
         // Update DOM
-        document.getElementById('latest-price').textContent = formattedPrice;
+        document.getElementById('latest-price').innerHTML = formattedPrice + badge;
         document.getElementById('last-updated').textContent = `Last updated: ${formattedDate} at ${formattedTime} UTC`;
 
       } catch (error) {
@@ -249,16 +334,27 @@
       }
     }
 
-    // Load price data when page loads
-    loadLatestPrice();
-
     // Fetch and display latest regulatory alerts from data/regulatory_alerts.json
     async function loadRegulatoryAlerts() {
       try {
         const response = await fetch('data/regulatory_alerts.json');
         if (!response.ok) throw new Error('Failed to fetch regulatory alerts');
 
-        const alerts = await response.json();
+        let alerts = await response.json();
+
+        // Filter by mode
+        if (!isDemoMode) {
+          alerts = alerts.filter(a => a.mode === 'live');
+        }
+
+        // Check if we have data
+        if (alerts.length === 0) {
+          document.getElementById('alerts-count').textContent = '--';
+          document.getElementById('alerts-summary').textContent = 'No live data yet';
+          document.getElementById('regulatory-alerts-list').innerHTML =
+            '<p class="text-slate-400 text-sm">No live data yet — agents collecting daily at 08:00 UTC</p>';
+          return;
+        }
 
         // Sort by timestamp (most recent first) and take latest 5
         const sortedAlerts = alerts.sort((a, b) =>
@@ -291,6 +387,12 @@
           };
           const badgeClass = badgeColors[alert.source] || 'bg-slate-500/20 text-slate-200';
 
+          // Mode badge
+          const isLive = alert.mode === 'live';
+          const modeBadge = isLive
+            ? '<span class="px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-200 text-[10px] font-medium">LIVE</span>'
+            : '<span class="px-2 py-0.5 rounded-md bg-slate-500/20 text-slate-400 text-[10px] font-medium">DEMO</span>';
+
           return `
             <div class="glass rounded-xl p-4 border border-slate-700/50 hover:border-blue-500/30 transition">
               <div class="flex items-start justify-between gap-4">
@@ -301,6 +403,7 @@
                   </a>
                   <div class="flex items-center gap-2 mt-2">
                     <span class="px-2 py-1 rounded-md ${badgeClass} text-xs font-medium">${alert.source}</span>
+                    ${modeBadge}
                     <span class="text-xs text-slate-500">${formattedDate}</span>
                   </div>
                   ${alert.keywords_matched && alert.keywords_matched.length > 0 ? `
@@ -325,7 +428,9 @@
       }
     }
 
-    // Load regulatory alerts when page loads
+    // Initialize demo mode toggle and load all data when page loads
+    initDemoMode();
+    loadLatestPrice();
     loadRegulatoryAlerts();
   </script>
 </body>
