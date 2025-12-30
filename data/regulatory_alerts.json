@@ -1,5 +1,16 @@
 [
   {
+    "timestamp": "2025-12-29T13:23:51.952072+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2025-12-28T15:02:35.006841+00:00",
     "source": "ICAO",
     "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
@@ -31,6 +42,17 @@
     "keywords_matched": [
       "SAF",
       "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-25T06:23:51.952100+00:00",
+    "source": "EASA",
+    "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
+    "url": "https://www.easa.europa.eu/saf-registry-launch",
+    "keywords_matched": [
+      "SAF",
       "alternative fuel"
     ],
     "mode": "mock"
