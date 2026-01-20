@@ -187,5 +187,12 @@
     "currency": "NGN",
     "price_per_tonne": 21569,
     "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-20T08:17:29.367773+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22995,
+    "mode": "mock"
   }
 ]
