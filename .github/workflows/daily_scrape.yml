@@ -26,18 +26,28 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Feedstock Watchdog (mock)
-        run: |
-          python agents/feedstock_watchdog.py
+        run: python agents/feedstock_watchdog.py
 
       - name: Run Regulatory Sentry (mock)
-        run: |
-          python agents/regulatory_sentry.py
+        run: python agents/regulatory_sentry.py
+
+      - name: Run Capital Signals (mock)
+        run: python agents/capital_signals.py
+
+      - name: Run Technology Diligence (mock)
+        run: python agents/technology_diligence.py
+
+      - name: Run Market Access (mock)
+        run: python agents/market_access.py
+
+      - name: Run Community Pulse with Editor (mock)
+        run: python agents/community_pulse.py
 
       - name: Commit updated data
         run: |
           git config user.name "SAF HUB Bot"
           git config user.email "bot@biojet.ng"
-          git add data/prices.json data/regulatory_alerts.json
+          git add data/
           git commit -m "📊 Daily intelligence update" || echo "No changes to commit"
           git push
 
@@ -45,7 +55,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: intelligence-data
-          path: |
-            data/prices.json
-            data/regulatory_alerts.json
+          path: data/
           if-no-files-found: warn
