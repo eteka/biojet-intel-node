@@ -2,6 +2,12 @@
 
 Tracks HEFA, ETJ, AtJ, FT, and other SAF production pathway economics,
 certifications, and technological breakthroughs.
+
+Data Sources:
+- RSB Certification Database: rsb.org/certification/rsb-certificates/
+- ICAO CORSIA Eligible Fuels: icao.int/CORSIA/corsia-certified-fuels
+- NREL Annual Technology Baseline: atb.nrel.gov
+- CAAFI Updates: caafi.org
 """
 from __future__ import annotations
 
@@ -11,7 +17,39 @@ import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
+# Import data sources configuration
+try:
+    from data_sources import TECHNOLOGY_SOURCES
+except ImportError:
+    TECHNOLOGY_SOURCES = {}
+
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "technology_updates.json"
+
+# Live data source URLs
+LIVE_SOURCES = {
+    "rsb": {
+        "name": "RSB Certification Database",
+        "base_url": "https://rsb.org/certification/rsb-certificates/",
+    },
+    "icao_corsia": {
+        "name": "ICAO CORSIA Eligible Fuels",
+        "base_url": "https://www.icao.int/CORSIA/corsia-certified-fuels",
+    },
+    "nrel_atb": {
+        "name": "NREL Annual Technology Baseline",
+        "base_url": "https://atb.nrel.gov",
+    },
+    "caafi": {
+        "name": "CAAFI",
+        "base_url": "https://www.caafi.org/",
+    }
+}
 
 # SAF Pathways
 PATHWAYS = {

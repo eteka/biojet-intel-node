@@ -5,16 +5,54 @@ on the SAF industry in relation to developing countries.
 
 Includes an Editor sub-agent that writes thought pieces on SAF opportunities
 and challenges for developing nations, particularly in Africa.
+
+Data Sources:
+- AllAfrica Nigeria Agriculture: allafrica.com/nigeria/agriculture/
+- Guardian Nigeria Agro-Care: guardian.ng/business-services/agro-care/
+- Nairaland Forums Agriculture: nairaland.com/agriculture
 """
 from __future__ import annotations
 
 import argparse
 import json
 import random
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
+# Import data sources configuration
+try:
+    from data_sources import COMMUNITY_SOURCES
+except ImportError:
+    COMMUNITY_SOURCES = {}
+
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "community_pulse.json"
+
+# Live data source URLs
+LIVE_SOURCES = {
+    "allafrica": {
+        "name": "AllAfrica Nigeria Agriculture",
+        "rss_url": "https://allafrica.com/tools/headlines/rdf/nigeria/agriculture/headlines.rdf",
+        "base_url": "https://allafrica.com/nigeria/agriculture/",
+    },
+    "guardian_ng": {
+        "name": "Guardian Nigeria Agro-Care",
+        "base_url": "https://guardian.ng/business-services/agro-care/",
+    }
+}
+
+# Keywords for filtering relevant content
+AGRICULTURE_KEYWORDS = [
+    "cassava", "biofuel", "ethanol", "farmers", "feedstock",
+    "agriculture", "crop", "harvest", "price", "cooperative",
+    "processing", "waste", "biomass"
+]
 
 # Sentiment categories
 SENTIMENT_LEVELS = ["Very Positive", "Positive", "Neutral", "Concerned", "Negative"]

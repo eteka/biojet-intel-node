@@ -2,16 +2,53 @@
 
 Tracks airline sustainability pledges, SAF purchase agreements, airport infrastructure,
 and demand signals relevant to West African SAF producers.
+
+Data Sources:
+- GreenAir News SAF Section: greenairnews.com
+- Airline Press Releases (Ethiopian, Kenya Airways, Air Peace, etc.)
+- IATA SAF Resources: iata.org/en/programs/sustainability/sustainable-aviation-fuels/
 """
 from __future__ import annotations
 
 import argparse
 import json
 import random
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
+# Import data sources configuration
+try:
+    from data_sources import MARKET_SOURCES
+except ImportError:
+    MARKET_SOURCES = {}
+
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "market_access.json"
+
+# Live data source URLs
+LIVE_SOURCES = {
+    "greenair": {
+        "name": "GreenAir News",
+        "rss_url": "https://www.greenairnews.com/feed/",
+        "base_url": "https://www.greenairnews.com",
+    },
+    "iata_saf": {
+        "name": "IATA SAF",
+        "base_url": "https://www.iata.org/en/programs/sustainability/sustainable-aviation-fuels/",
+    }
+}
+
+# Keywords for filtering SAF-related news
+SAF_KEYWORDS = [
+    "SAF", "sustainable aviation fuel", "biofuel", "offtake",
+    "agreement", "commitment", "pledge", "net zero", "carbon neutral"
+]
 
 # Regions of interest
 REGIONS = ["West Africa", "Europe", "Middle East", "Global"]

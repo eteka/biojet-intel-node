@@ -2,6 +2,11 @@
 
 Tracks climate finance, grants, concessional debt, and blended finance opportunities
 relevant to sustainable aviation fuel development in Africa.
+
+Data Sources:
+- Green Climate Fund: data.greenclimate.fund
+- African Development Bank: dataportal.opendataforafrica.org
+- World Bank Projects API: api.worldbank.org/v2/projects
 """
 from __future__ import annotations
 
@@ -11,7 +16,45 @@ import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
+# Import data sources configuration
+try:
+    from data_sources import CAPITAL_SOURCES
+except ImportError:
+    CAPITAL_SOURCES = {}
+
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "capital_signals.json"
+
+# Live API endpoints
+LIVE_SOURCES = {
+    "gcf": {
+        "name": "Green Climate Fund",
+        "api_url": "https://data.greenclimate.fund/public/api/",
+        "base_url": "https://data.greenclimate.fund",
+    },
+    "afdb": {
+        "name": "African Development Bank",
+        "api_url": "https://dataportal.opendataforafrica.org/api/1.0/data",
+        "base_url": "https://projects.afdb.org",
+    },
+    "world_bank": {
+        "name": "World Bank",
+        "api_url": "https://api.worldbank.org/v2/projects",
+        "format": "json",
+    }
+}
+
+# Keywords to filter relevant projects
+SAF_KEYWORDS = [
+    "biofuel", "bioenergy", "SAF", "sustainable aviation",
+    "biomass", "ethanol", "renewable fuel", "cassava",
+    "agricultural waste", "clean energy", "aviation"
+]
 
 # Funding types
 FUNDING_TYPES = ["Grant", "Concessional Loan", "Equity", "Blended Finance", "Technical Assistance"]
@@ -91,6 +134,132 @@ MOCK_SIGNALS = [
 ]
 
 
+def fetch_world_bank_projects() -> list[dict]:
+    """
+    Fetch climate-related projects from World Bank API.
+
+    Filters for Nigeria and energy/climate sectors.
+    """
+    if not REQUESTS_AVAILABLE:
+        raise ImportError("requests library required for live mode")
+
+    signals = []
+    try:
+        # Query World Bank API for Nigeria climate projects
+        params = {
+            "format": "json",
+            "countrycode": "NG",  # Nigeria
+            "sector": "Energy",
+            "per_page": 50,
+        }
+
+        response = requests.get(
+            LIVE_SOURCES["world_bank"]["api_url"],
+            params=params,
+            timeout=30
+        )
+        response.raise_for_status()
+        data = response.json()
+
+        # Parse projects (World Bank returns array with metadata + data)
+        if isinstance(data, list) and len(data) > 1:
+            projects = data[1] if len(data) > 1 else []
+
+            for project in projects[:20]:
+                # Check if project relates to our keywords
+                project_name = project.get("project_name", "")
+                sector = project.get("sector1", {}).get("Name", "") if isinstance(project.get("sector1"), dict) else ""
+                content = f"{project_name} {sector}".lower()
+
+                if any(kw.lower() in content for kw in SAF_KEYWORDS):
+                    signals.append({
+                        "timestamp": datetime.now(timezone.utc).isoformat(),
+                        "source": "World Bank",
+                        "title": project_name,
+                        "amount_usd": project.get("totalcommamt", 0),
+                        "funding_type": "Loan/Grant",
+                        "url": f"https://projects.worldbank.org/en/projects-operations/project-detail/{project.get('id', '')}",
+                        "deadline": "Ongoing",
+                        "eligibility": ["Nigeria"],
+                        "focus_areas": [sector] if sector else ["Energy"],
+                        "relevance_score": 75,
+                        "mode": "live",
+                    })
+
+    except requests.RequestException as e:
+        print(f"Warning: Failed to fetch World Bank data: {e}")
+
+    return signals
+
+
+def fetch_gcf_projects() -> list[dict]:
+    """
+    Fetch projects from Green Climate Fund.
+
+    Note: GCF API structure may vary - this is a simplified implementation.
+    """
+    if not REQUESTS_AVAILABLE:
+        raise ImportError("requests library required for live mode")
+
+    signals = []
+    try:
+        # GCF Open Data Library
+        response = requests.get(
+            f"{LIVE_SOURCES['gcf']['base_url']}/api/projects",
+            params={"country": "Nigeria"},
+            timeout=30
+        )
+
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                projects = data if isinstance(data, list) else data.get("results", [])
+
+                for project in projects[:10]:
+                    title = project.get("title", project.get("name", ""))
+                    if title:
+                        signals.append({
+                            "timestamp": datetime.now(timezone.utc).isoformat(),
+                            "source": "Green Climate Fund",
+                            "title": title,
+                            "amount_usd": project.get("funding_amount", project.get("amount", 0)),
+                            "funding_type": project.get("type", "Grant"),
+                            "url": project.get("url", LIVE_SOURCES["gcf"]["base_url"]),
+                            "deadline": project.get("deadline", "See website"),
+                            "eligibility": project.get("countries", ["Nigeria"]),
+                            "focus_areas": project.get("sectors", ["Climate"]),
+                            "relevance_score": 80,
+                            "mode": "live",
+                        })
+            except json.JSONDecodeError:
+                pass
+
+    except requests.RequestException as e:
+        print(f"Warning: Failed to fetch GCF data: {e}")
+
+    return signals
+
+
+def fetch_live_signals() -> list[dict]:
+    """
+    Fetch funding signals from all live sources.
+
+    Returns:
+        Combined list of funding signals from all sources
+    """
+    all_signals = []
+
+    # Fetch World Bank projects
+    wb_signals = fetch_world_bank_projects()
+    all_signals.extend(wb_signals)
+
+    # Fetch GCF projects
+    gcf_signals = fetch_gcf_projects()
+    all_signals.extend(gcf_signals)
+
+    return all_signals
+
+
 def generate_mock_signals(count: int = 4) -> list[dict]:
     """Generate mock capital signals."""
     selected = random.sample(MOCK_SIGNALS, min(count, len(MOCK_SIGNALS)))
@@ -147,7 +316,19 @@ def persist_signals(new_signals: list[dict], path: Path) -> None:
 def run(mock: bool = True) -> list[dict]:
     """Run the capital signals agent."""
     if not mock:
-        raise NotImplementedError("Live funding monitoring is not implemented yet.")
+        # Live mode: fetch from real APIs
+        if not REQUESTS_AVAILABLE:
+            raise ImportError("requests library required for live mode. Run: pip install requests")
+
+        signals = fetch_live_signals()
+
+        if signals:
+            persist_signals(signals, DATA_PATH)
+            return signals
+        else:
+            # Fallback to mock if no live data retrieved
+            print("Warning: No live funding signals retrieved, falling back to mock mode")
+            return run(mock=True)
 
     count = random.randint(3, 5)
     signals = generate_mock_signals(count)

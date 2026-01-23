@@ -2,16 +2,59 @@
 
 Runs in mock mode (default) to simulate regulatory alerts from ICAO, EASA, and NCAA.
 In live mode, monitors RSS feeds and web pages for SAF-related keywords.
+
+Data Sources:
+- ICAO Newsroom: icao.int/newsroom
+- EASA Newsroom RSS: easa.europa.eu/en/rss
+- IATA Sustainability: iata.org/en/publications/newsletters/sustainability-economics-insights/
+- NCAA Nigeria: ncaa.gov.ng/media/news/
 """
 from __future__ import annotations
 
 import argparse
 import json
 import random
+import re
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
+    REQUESTS_AVAILABLE = False
+
+# Import data sources configuration
+try:
+    from data_sources import REGULATORY_SOURCES
+except ImportError:
+    REGULATORY_SOURCES = {}
+
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "regulatory_alerts.json"
+
+# Live RSS feed URLs
+LIVE_SOURCES = {
+    "easa": {
+        "name": "EASA Newsroom",
+        "rss_url": "https://www.easa.europa.eu/en/rss",
+        "base_url": "https://www.easa.europa.eu/en/newsroom",
+    },
+    "iata": {
+        "name": "IATA Sustainability",
+        "rss_url": "https://www.iata.org/en/publications/newsletters/sustainability-economics-insights/feed/",
+        "base_url": "https://www.iata.org/en/publications/newsletters/sustainability-economics-insights/",
+    },
+    "icao": {
+        "name": "ICAO Environmental",
+        "base_url": "https://www.icao.int/environmental-protection/Pages/default.aspx",
+        "corsia_url": "https://www.icao.int/CORSIA",
+    },
+    "ncaa": {
+        "name": "NCAA Nigeria",
+        "base_url": "https://ncaa.gov.ng/media/news/",
+    }
+}
 
 # Keywords to monitor
 KEYWORDS = [
@@ -22,6 +65,9 @@ KEYWORDS = [
     "carbon offset",
     "aviation emissions",
     "alternative fuel",
+    "ReFuelEU",
+    "biofuel",
+    "net zero",
 ]
 
 # Mock data for testing
@@ -57,6 +103,107 @@ MOCK_ALERTS = [
         "keywords_matched": ["SAF", "alternative fuel"],
     },
 ]
+
+
+def fetch_rss_feed(url: str, source_name: str) -> list[dict]:
+    """
+    Fetch and parse an RSS feed for SAF-related content.
+
+    Args:
+        url: RSS feed URL
+        source_name: Name of the source (e.g., "EASA", "IATA")
+
+    Returns:
+        List of alert dictionaries
+    """
+    if not REQUESTS_AVAILABLE:
+        raise ImportError("requests library required for live mode. Run: pip install requests")
+
+    alerts = []
+    try:
+        response = requests.get(url, timeout=30, headers={
+            "User-Agent": "SAF-HUB-Bot/1.0 (Biojet Intelligence Platform)"
+        })
+        response.raise_for_status()
+
+        # Parse RSS XML
+        root = ET.fromstring(response.content)
+
+        # Handle both RSS 2.0 and Atom feeds
+        items = root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry")
+
+        for item in items[:20]:  # Limit to 20 most recent
+            # Extract title
+            title_elem = item.find("title") or item.find("{http://www.w3.org/2005/Atom}title")
+            title = title_elem.text if title_elem is not None else ""
+
+            # Extract link
+            link_elem = item.find("link") or item.find("{http://www.w3.org/2005/Atom}link")
+            if link_elem is not None:
+                link = link_elem.text or link_elem.get("href", "")
+            else:
+                link = ""
+
+            # Extract description
+            desc_elem = item.find("description") or item.find("{http://www.w3.org/2005/Atom}summary")
+            description = desc_elem.text if desc_elem is not None else ""
+
+            # Extract pub date
+            date_elem = item.find("pubDate") or item.find("{http://www.w3.org/2005/Atom}published")
+            pub_date = date_elem.text if date_elem is not None else ""
+
+            # Check for keyword matches
+            content = f"{title} {description}".lower()
+            matched_keywords = [kw for kw in KEYWORDS if kw.lower() in content]
+
+            if matched_keywords:
+                alerts.append({
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "source": source_name,
+                    "title": title.strip() if title else "Untitled",
+                    "url": link.strip() if link else "",
+                    "keywords_matched": matched_keywords,
+                    "pub_date": pub_date,
+                    "mode": "live",
+                })
+
+    except requests.RequestException as e:
+        print(f"Warning: Failed to fetch RSS from {source_name}: {e}")
+    except ET.ParseError as e:
+        print(f"Warning: Failed to parse RSS from {source_name}: {e}")
+
+    return alerts
+
+
+def fetch_live_alerts() -> list[dict]:
+    """
+    Fetch alerts from all live sources.
+
+    Returns:
+        Combined list of alerts from all sources
+    """
+    all_alerts = []
+
+    # Fetch EASA RSS
+    if "easa" in LIVE_SOURCES and LIVE_SOURCES["easa"].get("rss_url"):
+        easa_alerts = fetch_rss_feed(
+            LIVE_SOURCES["easa"]["rss_url"],
+            "EASA"
+        )
+        all_alerts.extend(easa_alerts)
+
+    # Fetch IATA RSS (if available)
+    if "iata" in LIVE_SOURCES and LIVE_SOURCES["iata"].get("rss_url"):
+        try:
+            iata_alerts = fetch_rss_feed(
+                LIVE_SOURCES["iata"]["rss_url"],
+                "IATA"
+            )
+            all_alerts.extend(iata_alerts)
+        except Exception:
+            pass  # IATA feed may not always be available
+
+    return all_alerts
 
 
 def generate_mock_alerts(count: int = 3) -> list[dict]:
@@ -111,7 +258,19 @@ def persist_alerts(new_alerts: list[dict], path: Path) -> None:
 def run(mock: bool = True) -> list[dict]:
     """Run the regulatory sentry and return generated alerts."""
     if not mock:
-        raise NotImplementedError("Live monitoring mode is not implemented yet.")
+        # Live mode: fetch from real RSS feeds
+        if not REQUESTS_AVAILABLE:
+            raise ImportError("requests library required for live mode. Run: pip install requests")
+
+        alerts = fetch_live_alerts()
+
+        if alerts:
+            persist_alerts(alerts, DATA_PATH)
+            return alerts
+        else:
+            # Fallback to mock if no live data retrieved
+            print("Warning: No live alerts retrieved, falling back to mock mode")
+            return run(mock=True)
 
     # Generate 2-3 mock alerts
     count = random.randint(2, 3)
