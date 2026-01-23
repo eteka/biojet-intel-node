@@ -119,8 +119,91 @@
           </div>
           <div class="glass rounded-2xl p-5 border border-emerald-500/20">
             <p class="text-sm text-slate-400">Funding Tracker</p>
-            <h3 class="text-3xl font-semibold text-emerald-300 mt-2">7</h3>
-            <p class="text-xs text-slate-500 mt-3">Active SAF-linked pipelines including concessional debt, grants, and blended finance.</p>
+            <h3 class="text-3xl font-semibold text-emerald-300 mt-2" id="funding-count">--</h3>
+            <p class="text-xs text-slate-500 mt-1" id="funding-summary">Loading...</p>
+            <p class="text-xs text-slate-500 mt-2">Active SAF-linked pipelines including concessional debt, grants, and blended finance.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Capital Signals Section -->
+      <section class="max-w-6xl mx-auto px-6 mt-12">
+        <div class="glass rounded-2xl p-6 border border-emerald-500/20">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-emerald-500 to-amber-500 flex items-center justify-center text-slate-900 font-semibold">$</div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.14em] text-emerald-200">Capital Signals</p>
+              <h2 class="text-2xl font-semibold text-slate-50">Funding Opportunities</h2>
+            </div>
+          </div>
+          <div id="capital-signals-list" class="grid md:grid-cols-2 gap-4">
+            <p class="text-slate-400 text-sm">Loading funding opportunities...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technology Pathway Economics Visualization -->
+      <section class="max-w-6xl mx-auto px-6 mt-12">
+        <div class="glass rounded-2xl p-6 border border-cyan-500/20">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-slate-900 font-semibold">⚗️</div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.14em] text-cyan-200">Technology Diligence</p>
+              <h2 class="text-2xl font-semibold text-slate-50">SAF Pathway Economics</h2>
+            </div>
+          </div>
+          <div id="pathway-economics" class="grid md:grid-cols-5 gap-4 mb-6">
+            <p class="text-slate-400 text-sm col-span-5">Loading pathway data...</p>
+          </div>
+          <div class="border-t border-slate-700 pt-6">
+            <h3 class="text-lg font-medium text-slate-200 mb-4">Latest Technology Updates</h3>
+            <div id="tech-updates-list" class="space-y-3">
+              <p class="text-slate-400 text-sm">Loading technology updates...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Market Access Section -->
+      <section class="max-w-6xl mx-auto px-6 mt-12">
+        <div class="glass rounded-2xl p-6 border border-purple-500/20">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-slate-900 font-semibold">✈️</div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.14em] text-purple-200">Market Access</p>
+              <h2 class="text-2xl font-semibold text-slate-50">Airline Offtake Signals</h2>
+            </div>
+          </div>
+          <div id="market-signals-list" class="space-y-4">
+            <p class="text-slate-400 text-sm">Loading market signals...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial / Community Pulse Section -->
+      <section class="max-w-6xl mx-auto px-6 mt-12">
+        <div class="glass rounded-2xl p-6 border border-amber-500/20">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-slate-900 font-semibold">📰</div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.14em] text-amber-200">SAF HUB Editorial</p>
+              <h2 class="text-2xl font-semibold text-slate-50">Insights & Analysis</h2>
+            </div>
+          </div>
+          <div id="editorial-content" class="mb-6">
+            <p class="text-slate-400 text-sm">Loading editorial content...</p>
+          </div>
+          <div class="border-t border-slate-700 pt-6">
+            <h3 class="text-lg font-medium text-slate-200 mb-4">Community Sentiment</h3>
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex-1 bg-slate-800/50 rounded-full h-3 overflow-hidden">
+                <div id="sentiment-bar" class="h-full bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full transition-all" style="width: 50%"></div>
+              </div>
+              <span id="sentiment-label" class="text-sm text-slate-300">Loading...</span>
+            </div>
+            <div id="community-signals-list" class="space-y-3">
+              <p class="text-slate-400 text-sm">Loading community signals...</p>
+            </div>
           </div>
         </div>
       </section>
@@ -428,10 +511,258 @@
       }
     }
 
+    // Load Capital Signals
+    async function loadCapitalSignals() {
+      try {
+        const response = await fetch('data/capital_signals.json');
+        if (!response.ok) throw new Error('Failed to fetch capital signals');
+
+        let signals = await response.json();
+        if (!isDemoMode) signals = signals.filter(s => s.mode === 'live');
+
+        if (signals.length === 0) {
+          document.getElementById('funding-count').textContent = '--';
+          document.getElementById('funding-summary').textContent = 'No live data yet';
+          document.getElementById('capital-signals-list').innerHTML = '<p class="text-slate-400 text-sm col-span-2">No live data yet — agents collecting daily</p>';
+          return;
+        }
+
+        document.getElementById('funding-count').textContent = signals.length;
+        document.getElementById('funding-summary').textContent = 'Active opportunities tracked';
+
+        const sorted = signals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).slice(0, 4);
+        document.getElementById('capital-signals-list').innerHTML = sorted.map(s => {
+          const amount = s.amount_usd >= 1000000
+            ? `$${(s.amount_usd / 1000000).toFixed(1)}M`
+            : `$${(s.amount_usd / 1000).toFixed(0)}K`;
+          const modeBadge = s.mode === 'live'
+            ? '<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-200 text-[10px]">LIVE</span>'
+            : '<span class="px-2 py-0.5 rounded bg-slate-500/20 text-slate-400 text-[10px]">DEMO</span>';
+          return `
+            <div class="glass rounded-xl p-4 border border-slate-700/50">
+              <div class="flex justify-between items-start mb-2">
+                <span class="text-emerald-300 font-semibold">${amount}</span>
+                <span class="px-2 py-1 rounded bg-amber-500/20 text-amber-200 text-xs">${s.funding_type}</span>
+              </div>
+              <a href="${s.url}" target="_blank" class="text-slate-100 text-sm font-medium hover:text-emerald-300 transition">${s.title}</a>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="text-xs text-slate-500">${s.source}</span>
+                ${modeBadge}
+              </div>
+              <p class="text-xs text-slate-400 mt-2">Deadline: ${s.deadline}</p>
+            </div>
+          `;
+        }).join('');
+      } catch (error) {
+        console.error('Error loading capital signals:', error);
+        document.getElementById('capital-signals-list').innerHTML = '<p class="text-slate-400 text-sm col-span-2">Unable to load funding data</p>';
+      }
+    }
+
+    // Load Technology Updates
+    async function loadTechnologyUpdates() {
+      try {
+        const response = await fetch('data/technology_updates.json');
+        if (!response.ok) throw new Error('Failed to fetch technology data');
+
+        let data = await response.json();
+        if (!isDemoMode) data = data.filter(d => d.mode === 'live');
+
+        if (data.length === 0) {
+          document.getElementById('pathway-economics').innerHTML = '<p class="text-slate-400 text-sm col-span-5">No live data yet</p>';
+          document.getElementById('tech-updates-list').innerHTML = '<p class="text-slate-400 text-sm">No live updates yet</p>';
+          return;
+        }
+
+        // Display pathway economics as visual bars
+        const pathways = ['HEFA', 'ETJ', 'AtJ', 'FT', 'Co-processing'];
+        const pathwayData = {
+          'HEFA': { cost: 4.25, color: 'emerald' },
+          'ETJ': { cost: 5.25, color: 'cyan' },
+          'AtJ': { cost: 5.75, color: 'blue' },
+          'FT': { cost: 6.50, color: 'purple' },
+          'Co-processing': { cost: 3.25, color: 'amber' }
+        };
+
+        document.getElementById('pathway-economics').innerHTML = pathways.map(p => {
+          const d = pathwayData[p];
+          const height = Math.min(100, (d.cost / 8) * 100);
+          return `
+            <div class="text-center">
+              <div class="h-24 flex items-end justify-center mb-2">
+                <div class="w-12 bg-${d.color}-500/30 rounded-t" style="height: ${height}%">
+                  <div class="w-full h-full bg-${d.color}-500/60 rounded-t"></div>
+                </div>
+              </div>
+              <p class="text-lg font-semibold text-${d.color}-300">$${d.cost.toFixed(2)}</p>
+              <p class="text-xs text-slate-400">${p}</p>
+              <p class="text-[10px] text-slate-500">per gallon</p>
+            </div>
+          `;
+        }).join('');
+
+        // Display tech updates
+        const sorted = data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).slice(0, 3);
+        document.getElementById('tech-updates-list').innerHTML = sorted.map(u => {
+          const modeBadge = u.mode === 'live'
+            ? '<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-200 text-[10px]">LIVE</span>'
+            : '<span class="px-2 py-0.5 rounded bg-slate-500/20 text-slate-400 text-[10px]">DEMO</span>';
+          return `
+            <div class="glass rounded-lg p-3 border border-slate-700/50">
+              <div class="flex items-start justify-between gap-2">
+                <a href="${u.url}" target="_blank" class="text-slate-200 text-sm hover:text-cyan-300 transition flex-1">${u.title}</a>
+                <span class="px-2 py-1 rounded bg-cyan-500/20 text-cyan-200 text-xs shrink-0">${u.pathway}</span>
+              </div>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="text-xs text-slate-500">${u.source}</span>
+                ${modeBadge}
+                <span class="text-xs text-slate-500">Impact: ${u.impact_score}%</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (error) {
+        console.error('Error loading technology data:', error);
+      }
+    }
+
+    // Load Market Access Signals
+    async function loadMarketSignals() {
+      try {
+        const response = await fetch('data/market_access.json');
+        if (!response.ok) throw new Error('Failed to fetch market data');
+
+        let data = await response.json();
+        let signals = data.airline_signals || [];
+        if (!isDemoMode) signals = signals.filter(s => s.mode === 'live');
+
+        if (signals.length === 0) {
+          document.getElementById('market-signals-list').innerHTML = '<p class="text-slate-400 text-sm">No live market signals yet</p>';
+          return;
+        }
+
+        const sorted = signals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).slice(0, 4);
+        document.getElementById('market-signals-list').innerHTML = sorted.map(s => {
+          const volume = s.volume_tonnes_annual >= 100000
+            ? `${(s.volume_tonnes_annual / 1000).toFixed(0)}K tonnes/yr`
+            : `${s.volume_tonnes_annual.toLocaleString()} tonnes/yr`;
+          const modeBadge = s.mode === 'live'
+            ? '<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-200 text-[10px]">LIVE</span>'
+            : '<span class="px-2 py-0.5 rounded bg-slate-500/20 text-slate-400 text-[10px]">DEMO</span>';
+          const regionColors = {
+            'Africa': 'emerald', 'Europe': 'blue', 'Middle East': 'amber', 'West Africa': 'cyan'
+          };
+          const color = regionColors[s.region] || 'slate';
+          return `
+            <div class="glass rounded-xl p-4 border border-slate-700/50 hover:border-purple-500/30 transition">
+              <div class="flex items-start justify-between gap-4">
+                <div class="flex-1">
+                  <div class="flex items-center gap-2 mb-2">
+                    <span class="text-purple-300 font-semibold">${s.airline}</span>
+                    <span class="px-2 py-0.5 rounded bg-${color}-500/20 text-${color}-200 text-xs">${s.region}</span>
+                  </div>
+                  <a href="${s.url}" target="_blank" class="text-slate-100 text-sm hover:text-purple-300 transition">${s.title}</a>
+                  <div class="flex items-center gap-3 mt-2">
+                    <span class="text-xs text-slate-400">${s.signal_type}</span>
+                    <span class="text-xs text-emerald-300">${volume}</span>
+                    ${modeBadge}
+                  </div>
+                  <p class="text-xs text-slate-500 mt-2">${s.relevance}</p>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (error) {
+        console.error('Error loading market signals:', error);
+      }
+    }
+
+    // Load Community Pulse and Editorial
+    async function loadCommunityPulse() {
+      try {
+        const response = await fetch('data/community_pulse.json');
+        if (!response.ok) throw new Error('Failed to fetch community data');
+
+        const data = await response.json();
+        let signals = data.signals || [];
+        let editorials = data.editorials || [];
+        const sentiment = data.sentiment_summary || {};
+
+        if (!isDemoMode) {
+          signals = signals.filter(s => s.mode === 'live');
+          editorials = editorials.filter(e => e.mode === 'live');
+        }
+
+        // Update sentiment bar
+        const score = sentiment.score || 50;
+        document.getElementById('sentiment-bar').style.width = `${score}%`;
+        document.getElementById('sentiment-label').textContent = sentiment.overall || 'Neutral';
+
+        // Display editorial content
+        if (editorials.length > 0) {
+          const editorial = editorials[0];
+          document.getElementById('editorial-content').innerHTML = `
+            <div class="bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-xl p-5 border border-amber-500/20">
+              <span class="px-2 py-1 rounded bg-amber-500/20 text-amber-200 text-xs mb-3 inline-block">${editorial.theme}</span>
+              <h3 class="text-xl font-semibold text-slate-100 mb-3">${editorial.title}</h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-4">${editorial.hook}</p>
+              <div class="border-l-2 border-amber-500/50 pl-4 mb-4">
+                <p class="text-slate-400 text-sm italic">${editorial.developing_country_angle}</p>
+              </div>
+              <div class="flex items-center gap-3 text-xs text-slate-500">
+                <span>${editorial.author}</span>
+                <span>•</span>
+                <span>${editorial.estimated_word_count} words</span>
+                <span>•</span>
+                <span class="px-2 py-0.5 rounded ${editorial.mode === 'live' ? 'bg-emerald-500/20 text-emerald-200' : 'bg-slate-500/20 text-slate-400'}">${editorial.mode === 'live' ? 'LIVE' : 'DEMO'}</span>
+              </div>
+            </div>
+          `;
+        }
+
+        // Display community signals
+        if (signals.length > 0) {
+          const sorted = signals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).slice(0, 3);
+          document.getElementById('community-signals-list').innerHTML = sorted.map(s => {
+            const sentimentColors = {
+              'Very Positive': 'emerald', 'Positive': 'cyan', 'Neutral': 'slate', 'Concerned': 'amber', 'Negative': 'red'
+            };
+            const color = sentimentColors[s.sentiment] || 'slate';
+            const modeBadge = s.mode === 'live'
+              ? '<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-200 text-[10px]">LIVE</span>'
+              : '<span class="px-2 py-0.5 rounded bg-slate-500/20 text-slate-400 text-[10px]">DEMO</span>';
+            return `
+              <div class="glass rounded-lg p-3 border border-slate-700/50">
+                <div class="flex items-start justify-between gap-2">
+                  <span class="text-slate-200 text-sm">${s.title}</span>
+                  <span class="px-2 py-0.5 rounded bg-${color}-500/20 text-${color}-200 text-xs shrink-0">${s.sentiment}</span>
+                </div>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="text-xs text-slate-500">${s.source}</span>
+                  <span class="text-xs text-slate-600">•</span>
+                  <span class="text-xs text-slate-500">${s.region}</span>
+                  ${modeBadge}
+                </div>
+              </div>
+            `;
+          }).join('');
+        } else {
+          document.getElementById('community-signals-list').innerHTML = '<p class="text-slate-400 text-sm">No community signals yet</p>';
+        }
+      } catch (error) {
+        console.error('Error loading community pulse:', error);
+      }
+    }
+
     // Initialize demo mode toggle and load all data when page loads
     initDemoMode();
     loadLatestPrice();
     loadRegulatoryAlerts();
+    loadCapitalSignals();
+    loadTechnologyUpdates();
+    loadMarketSignals();
+    loadCommunityPulse();
   </script>
 </body>
 </html>
