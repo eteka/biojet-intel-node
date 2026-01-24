@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-01-19T08:14:05.493222+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-17T08:14:05.493249+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-16T08:14:05.493253+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-10T08:14:05.493243+00:00",
+    "source": "LanzaJet",
+    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.lanzajet.com/georgia-commercial",
+    "significance": "First commercial-scale ATJ facility in the Americas",
+    "impact_score": 92,
+    "mode": "mock"
+  }
+]

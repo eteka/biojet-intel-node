@@ -1,205 +1,16 @@
 [
   {
-    "timestamp": "2025-12-15T19:45:49.040575+00:00",
+    "timestamp": "2026-01-24T08:14:04.980782+00:00",
     "commodity": "cassava_peel",
     "currency": "NGN",
-    "price_per_tonne": 23280,
+    "price_per_tonne": 21952,
     "mode": "mock"
   },
   {
-    "timestamp": "2025-12-28T16:14:12.551196+00:00",
+    "timestamp": "2026-01-23T08:15:52.245524+00:00",
     "commodity": "cassava_peel",
     "currency": "NGN",
-    "price_per_tonne": 22208,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-29T08:17:22.540591+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 18509,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-30T08:15:47.634479+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 16578,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-30T10:25:28.857823+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 17699,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-30T14:02:34.941865+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 19680,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-30T14:23:51.879869+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 16748,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2025-12-31T08:15:37.892768+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 16676,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-01T08:15:36.424430+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 24968,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-02T08:15:38.219420+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 22194,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-03T08:14:04.599744+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 18089,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-04T08:14:28.302416+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 22122,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-05T08:18:02.910643+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 22806,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-06T08:16:28.444206+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 19567,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-07T08:16:17.095265+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 21110,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-08T08:16:33.107032+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 21222,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-09T08:16:21.799684+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 20780,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-10T08:13:46.314261+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 23176,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-11T08:14:06.430494+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 22263,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-12T08:17:48.906570+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 20009,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-13T08:16:23.043259+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 17044,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-14T08:16:09.285928+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 16577,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-15T08:16:54.508132+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 21377,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-16T08:15:44.237184+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 23129,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-17T08:13:52.161543+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 23181,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-18T08:14:11.869075+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 23812,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-19T08:18:45.756823+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 21569,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-20T08:17:29.367773+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 22995,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-01-21T08:17:40.381133+00:00",
-    "commodity": "cassava_peel",
-    "currency": "NGN",
-    "price_per_tonne": 23591,
+    "price_per_tonne": 15244,
     "mode": "mock"
   },
   {
@@ -210,10 +21,206 @@
     "mode": "mock"
   },
   {
-    "timestamp": "2026-01-23T08:15:52.245524+00:00",
+    "timestamp": "2026-01-21T08:17:40.381133+00:00",
     "commodity": "cassava_peel",
     "currency": "NGN",
-    "price_per_tonne": 15244,
+    "price_per_tonne": 23591,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-20T08:17:29.367773+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22995,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-19T08:18:45.756823+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 21569,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-18T08:14:11.869075+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23812,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-17T08:13:52.161543+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23181,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-16T08:15:44.237184+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23129,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-15T08:16:54.508132+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 21377,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-14T08:16:09.285928+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 16577,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-13T08:16:23.043259+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 17044,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-12T08:17:48.906570+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 20009,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-11T08:14:06.430494+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22263,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-10T08:13:46.314261+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23176,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-09T08:16:21.799684+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 20780,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-08T08:16:33.107032+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 21222,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-07T08:16:17.095265+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 21110,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-06T08:16:28.444206+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 19567,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-05T08:18:02.910643+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22806,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-04T08:14:28.302416+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22122,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-03T08:14:04.599744+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 18089,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-02T08:15:38.219420+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22194,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-01T08:15:36.424430+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 24968,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-31T08:15:37.892768+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 16676,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-30T14:23:51.879869+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 16748,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-30T14:02:34.941865+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 19680,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-30T10:25:28.857823+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 17699,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-30T08:15:47.634479+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 16578,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-29T08:17:22.540591+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 18509,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-28T16:14:12.551196+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 22208,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2025-12-15T19:45:49.040575+00:00",
+    "commodity": "cassava_peel",
+    "currency": "NGN",
+    "price_per_tonne": 23280,
     "mode": "mock"
   }
 ]
