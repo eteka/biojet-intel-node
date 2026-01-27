@@ -1,6 +1,30 @@
 [
   {
+    "timestamp": "2026-01-26T08:17:30.955377+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-21T08:18:07.220896+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-19T08:17:30.955369+00:00",
     "source": "Argonne National Lab",
     "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
     "pathway": "ETJ",
@@ -96,6 +120,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-01-11T08:17:30.955342+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-10T08:14:05.493243+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
@@ -117,6 +153,18 @@
     "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
     "significance": "Opens pathway for African cassava-based SAF",
     "impact_score": 97,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-06T08:17:30.955382+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {

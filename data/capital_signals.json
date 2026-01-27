@@ -42,6 +42,44 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-01-24T08:17:30.794729+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 83,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-23T08:17:30.794741+00:00",
+    "source": "Climate Investment Funds",
+    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
+    "amount_usd": 15000000,
+    "funding_type": "Concessional Loan",
+    "url": "https://www.cif.org/act-biofuels",
+    "deadline": "2025-08-15",
+    "eligibility": [
+      "CIF eligible countries"
+    ],
+    "focus_areas": [
+      "just transition",
+      "biofuels",
+      "SAF"
+    ],
+    "relevance_score": 78,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-21T08:18:07.062071+00:00",
     "source": "EU Global Gateway",
     "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
@@ -77,6 +115,25 @@
       "aviation decarbonization"
     ],
     "relevance_score": 77,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-19T08:17:30.794706+00:00",
+    "source": "African Development Bank",
+    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
+    "amount_usd": 1000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.afdb.org/sefa-saf-feasibility",
+    "deadline": "2025-04-15",
+    "eligibility": [
+      "African Union Member States"
+    ],
+    "focus_areas": [
+      "feasibility study",
+      "SAF",
+      "aviation decarbonization"
+    ],
+    "relevance_score": 83,
     "mode": "mock"
   },
   {
@@ -153,6 +210,25 @@
       "SAF"
     ],
     "relevance_score": 93,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-13T08:17:30.794737+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 98,
     "mode": "mock"
   },
   {
