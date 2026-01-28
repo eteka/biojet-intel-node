@@ -156,6 +156,46 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-01-18T08:17:21.376883+00:00",
+    "source": "African Development Bank",
+    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
+    "amount_usd": 1000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.afdb.org/sefa-saf-feasibility",
+    "deadline": "2025-04-15",
+    "eligibility": [
+      "African Union Member States"
+    ],
+    "focus_areas": [
+      "feasibility study",
+      "SAF",
+      "aviation decarbonization"
+    ],
+    "relevance_score": 75,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-17T08:17:21.376861+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-17T08:14:15.266862+00:00",
     "source": "EU Global Gateway",
     "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
@@ -210,6 +250,27 @@
       "SAF"
     ],
     "relevance_score": 93,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-14T08:17:21.376889+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 99,
     "mode": "mock"
   },
   {

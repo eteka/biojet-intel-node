@@ -37,6 +37,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-21T08:17:21.783812+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-21T08:14:15.723757+00:00",
       "source": "Cassava Farmers Association of Nigeria",
       "signal_type": "Survey Result",
@@ -109,7 +121,31 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-17T08:17:21.783816+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-16T08:17:31.280507+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-15T08:17:21.783806+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
       "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
@@ -157,6 +193,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-14T08:17:21.783783+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-12T08:14:05.800073+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -170,6 +218,26 @@
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-01-28T08:17:21.783823+00:00",
+      "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
+      "theme": "Community",
+      "hook": "For millions of smallholder farmers, agricultural waste is a disposal headache. SAF could turn it into a steady income stream.",
+      "key_points": [
+        "Cassava processing generates 30-40% waste by weight",
+        "Current disposal methods include burning or dumping—both problematic",
+        "Biomass aggregation could add $200-500 annual income per farming household",
+        "Women, who dominate cassava processing, stand to benefit disproportionately"
+      ],
+      "developing_country_angle": "SAF production in developing countries isn't just about fuel—it's about rural economic transformation. The value chain creates jobs in collection, processing, and logistics that can't be automated or offshored.",
+      "call_to_action": "SAF project developers must design inclusive value chains that share benefits with farming communities—not just extract their resources.",
+      "estimated_word_count": 978,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-01-27T08:17:31.280523+00:00",
       "title": "Why Africa Could Become the World's SAF Breadbasket",
@@ -253,9 +321,9 @@
   ],
   "sentiment_summary": {
     "overall": "Neutral",
-    "score": 35,
-    "signal_count": 5,
-    "trend": "declining"
+    "score": 31,
+    "signal_count": 4,
+    "trend": "stable"
   },
-  "last_updated": "2026-01-27T08:17:31.280755+00:00"
+  "last_updated": "2026-01-28T08:17:21.784045+00:00"
 }
