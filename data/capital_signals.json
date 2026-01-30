@@ -1,5 +1,26 @@
 [
   {
+    "timestamp": "2026-01-30T08:24:10.492039+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 94,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-28T08:25:35.617328+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -16,6 +37,25 @@
       "bankability"
     ],
     "relevance_score": 72,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-27T08:24:10.492059+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 91,
     "mode": "mock"
   },
   {
@@ -140,6 +180,25 @@
   },
   {
     "timestamp": "2026-01-21T08:14:15.266874+00:00",
+    "source": "African Development Bank",
+    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
+    "amount_usd": 1000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.afdb.org/sefa-saf-feasibility",
+    "deadline": "2025-04-15",
+    "eligibility": [
+      "African Union Member States"
+    ],
+    "focus_areas": [
+      "feasibility study",
+      "SAF",
+      "aviation decarbonization"
+    ],
+    "relevance_score": 77,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-19T08:24:10.492067+00:00",
     "source": "African Development Bank",
     "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
     "amount_usd": 1000000,
