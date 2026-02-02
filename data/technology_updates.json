@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-02-01T08:29:44.667772+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-01-28T08:19:03.442846+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
@@ -189,6 +201,18 @@
     "url": "https://rsb.org/africa-certification",
     "significance": "Simplified sustainability certification for African producers",
     "impact_score": 82,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-01-15T08:29:44.667746+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
