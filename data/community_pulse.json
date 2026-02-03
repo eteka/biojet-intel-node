@@ -13,6 +13,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-30T08:25:02.771273+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-30T08:19:03.760855+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -37,6 +49,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-29T08:25:02.771244+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-29T08:15:41.436285+00:00",
       "source": "Cassava Farmers Association of Nigeria",
       "signal_type": "Survey Result",
@@ -50,6 +74,18 @@
     },
     {
       "timestamp": "2026-01-28T08:25:36.032339+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-28T08:25:02.771278+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
       "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
@@ -193,6 +229,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-20T08:25:02.771266+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-20T08:14:15.723750+00:00",
       "source": "Nigerian Tribune",
       "signal_type": "News Coverage",
@@ -311,57 +359,29 @@
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-17T08:17:31.280516+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-17T08:17:21.783816+00:00",
-      "source": "Premium Times",
-      "signal_type": "News Coverage",
-      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Industry",
-      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-17T08:15:41.436295+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-16T08:25:36.032334+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-02-03T08:25:02.771284+00:00",
+      "title": "Leapfrogging: Can Africa Skip Fossil Jet Fuel Entirely?",
+      "theme": "Innovation",
+      "hook": "Some African airports have never had reliable jet fuel supply. What if they go straight to SAF?",
+      "key_points": [
+        "Many regional African airports lack established fuel infrastructure",
+        "Building SAF-ready facilities from scratch may be cheaper than retrofitting",
+        "Distributed production models could serve underserved airports",
+        "Mobile phone banking showed Africa can leapfrog traditional infrastructure"
+      ],
+      "developing_country_angle": "The absence of legacy infrastructure—often seen as a weakness—could become Africa's greatest strength in the SAF transition. Nations unencumbered by sunk costs in fossil fuel systems can design optimal SAF supply chains from the ground up.",
+      "call_to_action": "Aviation authorities should consider SAF-first policies for new airport infrastructure rather than replicating 20th-century fossil fuel designs.",
+      "estimated_word_count": 1191,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-02-02T08:29:44.968282+00:00",
       "title": "Why Africa Could Become the World's SAF Breadbasket",
@@ -565,9 +585,9 @@
   ],
   "sentiment_summary": {
     "overall": "Neutral",
-    "score": 25,
-    "signal_count": 3,
+    "score": 38,
+    "signal_count": 4,
     "trend": "improving"
   },
-  "last_updated": "2026-02-02T08:29:44.968673+00:00"
+  "last_updated": "2026-02-03T08:25:02.771668+00:00"
 }
