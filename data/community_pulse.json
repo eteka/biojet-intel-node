@@ -1,6 +1,18 @@
 {
   "signals": [
     {
+      "timestamp": "2026-02-03T08:29:27.211565+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-01T08:27:07.246797+00:00",
       "source": "Nigerian Tribune",
       "signal_type": "News Coverage",
@@ -22,6 +34,18 @@
       "region": "Nigeria National",
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-31T08:29:27.211554+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
       "mode": "mock"
     },
     {
@@ -85,6 +109,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-28T08:29:27.211534+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-28T08:25:36.032339+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -145,6 +181,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-25T08:29:27.211561+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-25T08:27:07.246780+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -166,6 +214,18 @@
       "region": "Nigeria National",
       "stakeholder_type": "Industry",
       "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-24T08:29:27.211569+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
       "mode": "mock"
     },
     {
@@ -299,69 +359,29 @@
       "stakeholder_type": "Aggregators",
       "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-20T08:14:15.723750+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:24:10.940304+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:19:03.760888+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:15:41.436298+00:00",
-      "source": "Premium Times",
-      "signal_type": "News Coverage",
-      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Industry",
-      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:14:15.723729+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-02-05T08:29:27.211574+00:00",
+      "title": "Why Africa Could Become the World's SAF Breadbasket",
+      "theme": "Opportunity",
+      "hook": "As global aviation races to decarbonize, African nations hold an unexpected trump card: abundant agricultural residues that could fuel the jets of tomorrow.",
+      "key_points": [
+        "Africa produces over 200 million tonnes of cassava annually, with significant processing residues",
+        "The continent's young population and agricultural base create a unique value chain opportunity",
+        "Book-and-claim mechanisms allow African producers to supply global markets",
+        "First-mover advantage could establish lasting market positions"
+      ],
+      "developing_country_angle": "Unlike industrialized nations competing with food production, developing countries can leverage existing agricultural waste streams—turning a disposal problem into an export opportunity.",
+      "call_to_action": "The window for African nations to establish SAF production infrastructure is now. Those who move first will define the industry for decades.",
+      "estimated_word_count": 1022,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-02-04T08:27:07.246803+00:00",
       "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
@@ -607,7 +627,7 @@
     "overall": "Neutral",
     "score": 30,
     "signal_count": 5,
-    "trend": "declining"
+    "trend": "stable"
   },
-  "last_updated": "2026-02-04T08:27:07.247152+00:00"
+  "last_updated": "2026-02-05T08:29:27.211940+00:00"
 }
