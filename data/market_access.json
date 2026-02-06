@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-02-04T08:28:32.886023+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 62,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-01T08:29:27.063491+00:00",
       "airline": "Kenya Airways",
       "region": "Africa",
@@ -11,6 +24,19 @@
       "url": "https://www.kenya-airways.com/skynrg-partnership",
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 91,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-31T08:28:32.886046+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 60,
       "mode": "mock"
     },
     {
@@ -50,6 +76,19 @@
       "url": "https://www.flyairpeace.com/saf-mou",
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 65,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-27T08:28:32.886052+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 69,
       "mode": "mock"
     },
     {
@@ -285,45 +324,6 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 94,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-14T08:27:07.097380+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 65,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-14T08:25:02.618903+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 70,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-14T08:14:05.641132+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 84,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-02-05T08:29:27.063777+00:00"
+  "last_updated": "2026-02-06T08:28:32.886288+00:00"
 }

@@ -1,6 +1,42 @@
 {
   "signals": [
     {
+      "timestamp": "2026-02-05T08:28:33.018481+00:00",
+      "source": "IITA Ibadan",
+      "signal_type": "Research Publication",
+      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Research",
+      "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-02-04T08:28:33.018477+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-02-04T08:28:33.018451+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-03T08:29:27.211565+00:00",
       "source": "Nigerian Tribune",
       "signal_type": "News Coverage",
@@ -10,6 +46,18 @@
       "region": "South-West Nigeria",
       "stakeholder_type": "Government",
       "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-02-01T08:28:33.018484+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
       "mode": "mock"
     },
     {
@@ -46,6 +94,18 @@
       "region": "Nigeria National",
       "stakeholder_type": "Industry",
       "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-31T08:28:33.018471+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
       "mode": "mock"
     },
     {
@@ -299,69 +359,29 @@
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-22T08:14:05.800066+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-21T08:17:21.783812+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-21T08:14:15.723757+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-20T08:29:44.968274+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-20T08:25:02.771266+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-02-06T08:28:33.018490+00:00",
+      "title": "CORSIA and the Developing World: Opportunity or Burden?",
+      "theme": "Policy",
+      "hook": "The global carbon offsetting scheme for aviation could either propel or sideline developing country participation in SAF markets.",
+      "key_points": [
+        "CORSIA creates guaranteed demand for certified sustainable fuels",
+        "Certification costs may disadvantage smaller producers",
+        "Developed country mandates (ReFuelEU, US SAF credits) drive immediate demand",
+        "Africa remains largely absent from CORSIA eligible fuel production"
+      ],
+      "developing_country_angle": "While CORSIA was designed with environmental goals in mind, its implementation could inadvertently favor established players in wealthy nations. Developing countries must advocate for certification pathways that recognize their unique contexts.",
+      "call_to_action": "African negotiators at ICAO must push for simplified certification for small-scale producers and recognition of developmental co-benefits.",
+      "estimated_word_count": 800,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-02-05T08:29:27.211574+00:00",
       "title": "Why Africa Could Become the World's SAF Breadbasket",
@@ -624,10 +644,10 @@
     }
   ],
   "sentiment_summary": {
-    "overall": "Neutral",
-    "score": 30,
+    "overall": "Concerned",
+    "score": 20,
     "signal_count": 5,
-    "trend": "stable"
+    "trend": "declining"
   },
-  "last_updated": "2026-02-05T08:29:27.211940+00:00"
+  "last_updated": "2026-02-06T08:28:33.018828+00:00"
 }
