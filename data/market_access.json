@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-02-09T08:37:05.028479+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 79,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-04T08:28:32.886023+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -118,6 +131,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-01-28T08:37:05.028475+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 93,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-01-28T08:17:13.800860+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -128,6 +154,19 @@
       "url": "https://www.emirates.com/sustainability/saf-africa",
       "relevance": "Major hub carrier with significant West African routes",
       "confidence_score": 95,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-27T08:37:05.028463+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 61,
       "mode": "mock"
     },
     {
@@ -180,6 +219,19 @@
       "url": "https://www.flyairpeace.com/saf-mou",
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 68,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-25T08:37:05.028471+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 65,
       "mode": "mock"
     },
     {
@@ -272,58 +324,6 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 72,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-21T08:29:44.815415+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 73,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-20T08:17:21.646291+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 78,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:25:02.618873+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 66,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:17:21.646256+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 93,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -361,6 +361,15 @@
       "update_type": "Feasibility Study",
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-01-28T08:37:05.028488+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
       "mode": "mock"
     },
     {
@@ -452,16 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-19T08:15:41.293973+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-02-08T08:18:59.124445+00:00"
+  "last_updated": "2026-02-09T08:37:05.028766+00:00"
 }
