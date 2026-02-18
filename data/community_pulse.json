@@ -1,6 +1,18 @@
 {
   "signals": [
     {
+      "timestamp": "2026-02-18T08:32:09.624179+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-15T08:32:09.609803+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -22,6 +34,18 @@
       "region": "South-West Nigeria",
       "stakeholder_type": "Government",
       "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-02-13T08:32:09.624147+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
       "mode": "mock"
     },
     {
@@ -157,6 +181,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-02-09T08:32:09.624167+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-09T08:17:44.480296+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -202,6 +238,18 @@
       "region": "North-Central Nigeria",
       "stakeholder_type": "Aggregators",
       "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-02-08T08:32:09.624174+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
       "mode": "mock"
     },
     {
@@ -311,57 +359,29 @@
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-03T08:32:38.283728+00:00",
-      "source": "Premium Times",
-      "signal_type": "News Coverage",
-      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Industry",
-      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-03T08:29:27.211565+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-02T08:33:09.614104+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-02T08:32:38.283735+00:00",
-      "source": "IITA Ibadan",
-      "signal_type": "Research Publication",
-      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Research",
-      "key_insight": "Available feedstock may be 40% higher than current estimates",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-02-18T08:32:09.624185+00:00",
+      "title": "Why Africa Could Become the World's SAF Breadbasket",
+      "theme": "Opportunity",
+      "hook": "As global aviation races to decarbonize, African nations hold an unexpected trump card: abundant agricultural residues that could fuel the jets of tomorrow.",
+      "key_points": [
+        "Africa produces over 200 million tonnes of cassava annually, with significant processing residues",
+        "The continent's young population and agricultural base create a unique value chain opportunity",
+        "Book-and-claim mechanisms allow African producers to supply global markets",
+        "First-mover advantage could establish lasting market positions"
+      ],
+      "developing_country_angle": "Unlike industrialized nations competing with food production, developing countries can leverage existing agricultural waste streams—turning a disposal problem into an export opportunity.",
+      "call_to_action": "The window for African nations to establish SAF production infrastructure is now. Those who move first will define the industry for decades.",
+      "estimated_word_count": 1050,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-02-17T08:32:09.609846+00:00",
       "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-01-29T08:25:36.032345+00:00",
-      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
-      "theme": "Challenge",
-      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
-      "key_points": [
-        "Collection logistics remain the primary bottleneck—not feedstock availability",
-        "Inconsistent power supply raises production costs by 30-40%",
-        "Limited access to project finance creates a chicken-and-egg problem",
-        "Regulatory frameworks lag behind the technical possibilities"
-      ],
-      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
-      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
-      "estimated_word_count": 1043,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
     "overall": "Neutral",
-    "score": 30,
-    "signal_count": 5,
-    "trend": "stable"
+    "score": 31,
+    "signal_count": 4,
+    "trend": "improving"
   },
-  "last_updated": "2026-02-17T08:32:09.610317+00:00"
+  "last_updated": "2026-02-18T08:32:09.624654+00:00"
 }

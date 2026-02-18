@@ -19,6 +19,25 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-02-16T08:32:09.159786+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 79,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-02-16T08:32:09.153285+00:00",
     "source": "Green Climate Fund",
     "title": "GCF Readiness Support for SAF Project Development in West Africa",
@@ -80,6 +99,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-02-12T08:32:09.159814+00:00",
+    "source": "Green Climate Fund",
+    "title": "GCF Readiness Support for SAF Project Development in West Africa",
+    "amount_usd": 2500000,
+    "funding_type": "Grant",
+    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
+    "deadline": "2025-06-30",
+    "eligibility": [
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "focus_areas": [
+      "SAF",
+      "biofuels",
+      "climate mitigation"
+    ],
+    "relevance_score": 84,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-02-11T08:17:44.062476+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -136,6 +176,27 @@
       "climate mitigation"
     ],
     "relevance_score": 92,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-02-09T08:32:09.159806+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 93,
     "mode": "mock"
   },
   {
@@ -534,65 +595,6 @@
       "aviation decarbonization"
     ],
     "relevance_score": 84,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-04T08:37:04.740548+00:00",
-    "source": "EU Global Gateway",
-    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
-    "amount_usd": 50000000,
-    "funding_type": "Blended Finance",
-    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
-    "deadline": "2025-09-01",
-    "eligibility": [
-      "ECOWAS countries"
-    ],
-    "focus_areas": [
-      "green hydrogen",
-      "SAF",
-      "infrastructure"
-    ],
-    "relevance_score": 86,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-04T08:34:23.031845+00:00",
-    "source": "Shell Foundation",
-    "title": "Cassava-to-SAF Value Chain Development Grant",
-    "amount_usd": 750000,
-    "funding_type": "Grant",
-    "url": "https://shellfoundation.org/cassava-saf",
-    "deadline": "Rolling",
-    "eligibility": [
-      "Nigeria",
-      "Tanzania",
-      "Mozambique"
-    ],
-    "focus_areas": [
-      "cassava",
-      "value chain",
-      "SAF"
-    ],
-    "relevance_score": 81,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-04T08:32:37.838699+00:00",
-    "source": "IFC",
-    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
-    "amount_usd": 3000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.ifc.org/upstream-saf",
-    "deadline": "2025-07-01",
-    "eligibility": [
-      "IDA countries"
-    ],
-    "focus_areas": [
-      "project preparation",
-      "SAF",
-      "bankability"
-    ],
-    "relevance_score": 83,
     "mode": "mock"
   }
 ]
