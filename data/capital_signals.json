@@ -1,5 +1,24 @@
 [
   {
+    "timestamp": "2026-02-28T08:30:45.795208+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 88,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-02-28T08:15:15.499495+00:00",
     "source": "African Development Bank",
     "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
@@ -576,25 +595,6 @@
       "SAF"
     ],
     "relevance_score": 94,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-16T08:32:09.159786+00:00",
-    "source": "EU Global Gateway",
-    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
-    "amount_usd": 50000000,
-    "funding_type": "Blended Finance",
-    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
-    "deadline": "2025-09-01",
-    "eligibility": [
-      "ECOWAS countries"
-    ],
-    "focus_areas": [
-      "green hydrogen",
-      "SAF",
-      "infrastructure"
-    ],
-    "relevance_score": 79,
     "mode": "mock"
   }
 ]
