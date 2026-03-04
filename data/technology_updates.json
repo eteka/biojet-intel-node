@@ -24,6 +24,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-02-27T08:25:12.000511+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-02-25T08:27:33.723163+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
@@ -201,6 +213,18 @@
     "url": "https://www.neste.com/singapore-expansion",
     "significance": "Largest SAF production facility globally",
     "impact_score": 88,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-02-17T08:25:12.000535+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -453,30 +477,6 @@
     "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
     "significance": "Opens pathway for African cassava-based SAF",
     "impact_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-09T08:28:17.644890+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-08T08:34:23.163744+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
     "mode": "mock"
   }
 ]
