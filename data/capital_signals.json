@@ -1,5 +1,26 @@
 [
   {
+    "timestamp": "2026-03-06T08:16:39.049586+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-05T08:23:57.478783+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -16,6 +37,27 @@
       "bankability"
     ],
     "relevance_score": 91,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-03-05T08:16:39.049613+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 71,
     "mode": "mock"
   },
   {
@@ -132,6 +174,27 @@
       "climate mitigation"
     ],
     "relevance_score": 89,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-03-02T08:16:39.049622+00:00",
+    "source": "Green Climate Fund",
+    "title": "GCF Readiness Support for SAF Project Development in West Africa",
+    "amount_usd": 2500000,
+    "funding_type": "Grant",
+    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
+    "deadline": "2025-06-30",
+    "eligibility": [
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "focus_areas": [
+      "SAF",
+      "biofuels",
+      "climate mitigation"
+    ],
+    "relevance_score": 72,
     "mode": "mock"
   },
   {
@@ -528,69 +591,6 @@
       "bankability"
     ],
     "relevance_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-22T08:17:48.385605+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 99,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-21T08:28:41.670407+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 99,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-21T08:25:11.861083+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 88,
     "mode": "mock"
   }
 ]

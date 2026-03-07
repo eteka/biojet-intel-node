@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-03-07T08:16:39.186550+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-04T08:27:02.157487+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
@@ -45,6 +57,18 @@
     "url": "https://greet.es.anl.gov/tropical-feedstocks",
     "significance": "Improved carbon intensity calculations for cassava and sugarcane",
     "impact_score": 75,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-02-27T08:16:39.186556+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -300,6 +324,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-02-17T08:16:39.186531+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-02-16T08:30:10.663825+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
@@ -441,42 +477,6 @@
     "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
     "significance": "Opens pathway for African cassava-based SAF",
     "impact_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-13T08:17:44.197192+00:00",
-    "source": "World Energy",
-    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.worldenergy.net/paramount-100-saf",
-    "significance": "First facility producing neat SAF at commercial scale",
-    "impact_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-12T08:28:41.823853+00:00",
-    "source": "World Energy",
-    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.worldenergy.net/paramount-100-saf",
-    "significance": "First facility producing neat SAF at commercial scale",
-    "impact_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-02-12T08:18:30.582054+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
     "mode": "mock"
   }
 ]
