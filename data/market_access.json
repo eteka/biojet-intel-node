@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-03-08T08:27:29.441800+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 78,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-05T08:16:39.320815+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -311,19 +324,6 @@
       "relevance": "Book-and-claim mechanism enables African origin supply",
       "confidence_score": 70,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-17T08:31:13.038659+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 90,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -418,6 +418,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-02-21T08:27:29.441809+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-02-20T08:33:16.473628+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
@@ -445,23 +454,14 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-02-18T08:32:48.904119+00:00",
+      "timestamp": "2026-02-19T08:27:29.441804+00:00",
       "airport": "Lagos Murtala Muhammed (LOS)",
       "country": "Nigeria",
       "update_type": "Feasibility Study",
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-16T08:32:09.455576+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-03-09T08:31:13.038943+00:00"
+  "last_updated": "2026-03-10T08:27:29.442034+00:00"
 }
