@@ -1,6 +1,18 @@
 {
   "signals": [
     {
+      "timestamp": "2026-03-16T08:37:28.400167+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-15T08:23:56.537956+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -133,6 +145,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-09T08:37:28.400163+00:00",
+      "source": "IITA Ibadan",
+      "signal_type": "Research Publication",
+      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Research",
+      "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-08T08:43:02.775054+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -142,6 +166,18 @@
       "region": "South-East Nigeria",
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-03-08T08:37:28.400137+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
       "mode": "mock"
     },
     {
@@ -277,6 +313,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-04T08:37:28.400156+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-04T08:27:29.579020+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -311,57 +359,29 @@
       "stakeholder_type": "Industry",
       "key_insight": "Growing awareness of SAF opportunity among aviation sector",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-03T08:27:29.579031+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-03T08:23:57.948544+00:00",
-      "source": "IITA Ibadan",
-      "signal_type": "Research Publication",
-      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Research",
-      "key_insight": "Available feedstock may be 40% higher than current estimates",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-03T08:21:05.245615+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-02T08:30:46.256160+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-03-17T08:37:28.400173+00:00",
+      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
+      "theme": "Challenge",
+      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
+      "key_points": [
+        "Collection logistics remain the primary bottleneck—not feedstock availability",
+        "Inconsistent power supply raises production costs by 30-40%",
+        "Limited access to project finance creates a chicken-and-egg problem",
+        "Regulatory frameworks lag behind the technical possibilities"
+      ],
+      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
+      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
+      "estimated_word_count": 1050,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-03-16T08:43:02.775060+00:00",
       "title": "Why Africa Could Become the World's SAF Breadbasket",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-25T08:34:29.902225+00:00",
-      "title": "CORSIA and the Developing World: Opportunity or Burden?",
-      "theme": "Policy",
-      "hook": "The global carbon offsetting scheme for aviation could either propel or sideline developing country participation in SAF markets.",
-      "key_points": [
-        "CORSIA creates guaranteed demand for certified sustainable fuels",
-        "Certification costs may disadvantage smaller producers",
-        "Developed country mandates (ReFuelEU, US SAF credits) drive immediate demand",
-        "Africa remains largely absent from CORSIA eligible fuel production"
-      ],
-      "developing_country_angle": "While CORSIA was designed with environmental goals in mind, its implementation could inadvertently favor established players in wealthy nations. Developing countries must advocate for certification pathways that recognize their unique contexts.",
-      "call_to_action": "African negotiators at ICAO must push for simplified certification for small-scale producers and recognition of developmental co-benefits.",
-      "estimated_word_count": 1138,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
     "overall": "Neutral",
-    "score": 30,
-    "signal_count": 5,
-    "trend": "stable"
+    "score": 31,
+    "signal_count": 4,
+    "trend": "improving"
   },
-  "last_updated": "2026-03-16T08:43:02.775554+00:00"
+  "last_updated": "2026-03-17T08:37:28.400624+00:00"
 }
