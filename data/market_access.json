@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-17T08:20:36.934435+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 60,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-16T08:43:02.594297+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -209,6 +222,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-05T08:20:36.934398+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 81,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-05T08:16:39.320815+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -298,32 +324,6 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 92,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-02T08:30:46.102483+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 75,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-02T08:21:05.093217+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 73,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -391,6 +391,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-04T08:20:36.934440+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-03T08:34:47.086310+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
@@ -445,23 +454,14 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-02-26T08:28:41.981819+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-26T08:21:05.093227+00:00",
-      "airport": "Lagos Murtala Muhammed (LOS)",
-      "country": "Nigeria",
-      "update_type": "Feasibility Study",
-      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
-      "status": "Planning",
+      "timestamp": "2026-02-27T08:20:36.934449+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-03-21T08:18:37.014046+00:00"
+  "last_updated": "2026-03-22T08:20:36.934715+00:00"
 }
