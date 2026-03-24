@@ -53,6 +53,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-16T08:37:32.949991+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 69,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-13T08:34:47.086295+00:00",
       "airline": "Kenya Airways",
       "region": "Africa",
@@ -274,6 +287,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-06T08:37:32.950018+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 83,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-05T08:20:36.934398+00:00",
       "airline": "Air Peace",
       "region": "West Africa",
@@ -297,32 +323,6 @@
       "url": "https://www.airfranceklm.com/saf-rfp-africa",
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 84,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-05T08:16:39.320797+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 69,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-04T08:25:12.145116+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 67,
       "mode": "mock"
     }
   ],
@@ -409,6 +409,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-03T08:37:32.950023+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-03T08:34:47.086310+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
@@ -452,16 +461,7 @@
       "title": "Ghana Announces SAF Incentive Framework for Kotoka",
       "status": "Policy Development",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-02-27T08:27:12.937791+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-03-23T08:41:45.214607+00:00"
+  "last_updated": "2026-03-24T08:37:32.950284+00:00"
 }
