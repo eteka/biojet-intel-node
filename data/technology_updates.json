@@ -12,6 +12,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-03-20T08:36:10.831605+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-19T08:18:36.835601+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
@@ -108,6 +120,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-03-12T08:36:10.831610+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-12T08:28:04.805879+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
@@ -192,6 +216,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-03-09T08:36:10.831598+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-09T08:31:12.886661+00:00",
     "source": "Argonne National Lab",
     "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
@@ -225,6 +261,18 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-03-08T08:36:10.831576+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
     "mode": "mock"
   },
   {
@@ -429,54 +477,6 @@
     "url": "https://www.astm.org/d7566-annex7-update",
     "significance": "Major regulatory milestone enabling higher ETJ blending",
     "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-03T08:20:36.747780+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-02T08:43:02.412260+00:00",
-    "source": "Argonne National Lab",
-    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Research",
-    "url": "https://greet.es.anl.gov/tropical-feedstocks",
-    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
-    "impact_score": 75,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-02T08:34:46.892670+00:00",
-    "source": "Argonne National Lab",
-    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Research",
-    "url": "https://greet.es.anl.gov/tropical-feedstocks",
-    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
-    "impact_score": 75,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-02T08:21:04.943281+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
     "mode": "mock"
   }
 ]
