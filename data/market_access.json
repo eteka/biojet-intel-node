@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-03-22T08:37:49.827806+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 95,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-03-18T08:28:58.229510+00:00",
       "airline": "British Airways",
       "region": "Europe",
@@ -311,19 +324,6 @@
       "relevance": "Direct West African market access opportunity",
       "confidence_score": 80,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-07T08:23:56.375471+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 61,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -445,16 +445,16 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-03-02T08:21:05.093236+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
+      "timestamp": "2026-03-02T08:37:49.827828+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
       "mode": "mock"
     },
     {
-      "timestamp": "2026-03-01T08:27:02.319220+00:00",
+      "timestamp": "2026-03-02T08:21:05.093236+00:00",
       "airport": "Addis Ababa Bole (ADD)",
       "country": "Ethiopia",
       "update_type": "Infrastructure Investment",
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-03-26T08:40:31.789897+00:00"
+  "last_updated": "2026-03-27T08:37:49.828084+00:00"
 }
