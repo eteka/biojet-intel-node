@@ -40,6 +40,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-04-06T08:35:48.009118+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 84,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-06T08:29:31.326549+00:00",
     "source": "Climate Investment Funds",
     "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
@@ -276,6 +297,46 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-04-02T08:35:48.009133+00:00",
+    "source": "African Development Bank",
+    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
+    "amount_usd": 1000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.afdb.org/sefa-saf-feasibility",
+    "deadline": "2025-04-15",
+    "eligibility": [
+      "African Union Member States"
+    ],
+    "focus_areas": [
+      "feasibility study",
+      "SAF",
+      "aviation decarbonization"
+    ],
+    "relevance_score": 74,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-02T08:35:48.009099+00:00",
+    "source": "Green Climate Fund",
+    "title": "GCF Readiness Support for SAF Project Development in West Africa",
+    "amount_usd": 2500000,
+    "funding_type": "Grant",
+    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
+    "deadline": "2025-06-30",
+    "eligibility": [
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "focus_areas": [
+      "SAF",
+      "biofuels",
+      "climate mitigation"
+    ],
+    "relevance_score": 86,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-01T08:59:07.592278+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -351,6 +412,25 @@
       "rural electrification"
     ],
     "relevance_score": 90,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-01T08:35:48.009125+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 93,
     "mode": "mock"
   },
   {
@@ -468,6 +548,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-03-29T08:35:48.009129+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 92,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-29T08:30:38.174490+00:00",
     "source": "USAID Power Africa",
     "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
@@ -486,103 +587,6 @@
       "rural electrification"
     ],
     "relevance_score": 96,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-29T08:27:42.104391+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 80,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-29T08:27:26.140117+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 89,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-28T09:01:13.974679+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-28T08:58:00.531121+00:00",
-    "source": "IFC",
-    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
-    "amount_usd": 3000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.ifc.org/upstream-saf",
-    "deadline": "2025-07-01",
-    "eligibility": [
-      "IDA countries"
-    ],
-    "focus_areas": [
-      "project preparation",
-      "SAF",
-      "bankability"
-    ],
-    "relevance_score": 72,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-28T08:52:26.925186+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 79,
     "mode": "mock"
   }
 ]
