@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-10T09:24:27.855127+00:00",
+      "airline": "Kenya Airways",
+      "region": "Africa",
+      "signal_type": "Partnership Announcement",
+      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
+      "volume_tonnes_annual": 25000,
+      "timeframe": "2025-2027",
+      "url": "https://www.kenya-airways.com/skynrg-partnership",
+      "relevance": "Regional carrier building SAF infrastructure",
+      "confidence_score": 92,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-09T08:57:25.992383+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -24,6 +37,19 @@
       "url": "https://www.airfranceklm.com/saf-rfp-africa",
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 74,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-07T09:24:27.855139+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 80,
       "mode": "mock"
     },
     {
@@ -298,32 +324,6 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 70,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-21T08:50:03.550922+00:00",
-      "airline": "Ethiopian Airlines",
-      "region": "Africa",
-      "signal_type": "SAF Commitment",
-      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
-      "volume_tonnes_annual": 50000,
-      "timeframe": "2025-2030",
-      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
-      "relevance": "Direct West African market access opportunity",
-      "confidence_score": 91,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-20T08:50:10.219885+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 91,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -361,6 +361,15 @@
       "update_type": "Infrastructure Investment",
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-01T09:24:27.855148+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
       "mode": "mock"
     },
     {
@@ -452,16 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-03-18T08:59:07.924424+00:00",
-      "airport": "Lagos Murtala Muhammed (LOS)",
-      "country": "Nigeria",
-      "update_type": "Feasibility Study",
-      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
-      "status": "Planning",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-04-12T08:35:48.361641+00:00"
+  "last_updated": "2026-04-13T09:24:27.855425+00:00"
 }
