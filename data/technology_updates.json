@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-04-18T08:35:43.076364+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-16T09:06:36.923760+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
@@ -69,6 +81,18 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-10T08:35:43.076342+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
     "mode": "mock"
   },
   {
@@ -264,6 +288,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-03-31T08:35:43.076370+00:00",
+    "source": "LanzaJet",
+    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.lanzajet.com/georgia-commercial",
+    "significance": "First commercial-scale ATJ facility in the Americas",
+    "impact_score": 92,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-03-30T09:07:14.981375+00:00",
     "source": "Neste",
     "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
@@ -441,42 +477,6 @@
     "url": "https://gevo.com/net-zero-1-fid",
     "significance": "Major AtJ project advancement in the US",
     "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-23T08:52:27.090671+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-22T08:59:07.756412+00:00",
-    "source": "Neste",
-    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Capacity Expansion",
-    "url": "https://www.neste.com/singapore-expansion",
-    "significance": "Largest SAF production facility globally",
-    "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-22T08:50:10.048497+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
     "mode": "mock"
   }
 ]
