@@ -12,6 +12,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-04-16T17:15:38.594859+00:00",
+    "source": "EASA",
+    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
+    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-16T03:35:42.774740+00:00",
     "source": "EASA",
     "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
@@ -41,6 +53,29 @@
     "keywords_matched": [
       "SAF",
       "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-15T01:15:38.594880+00:00",
+    "source": "ICAO",
+    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
+    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
+    "keywords_matched": [
+      "LCAF",
+      "aviation emissions",
+      "carbon offset"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-13T14:15:38.594887+00:00",
+    "source": "EASA",
+    "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
+    "url": "https://www.easa.europa.eu/saf-registry-launch",
+    "keywords_matched": [
+      "SAF",
       "alternative fuel"
     ],
     "mode": "mock"
@@ -541,41 +576,6 @@
       "SAF",
       "sustainable aviation fuel",
       "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-27T05:40:02.421473+00:00",
-    "source": "ICAO",
-    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
-    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
-    "keywords_matched": [
-      "LCAF",
-      "aviation emissions",
-      "carbon offset"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-26T19:44:16.127737+00:00",
-    "source": "EASA",
-    "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
-    "url": "https://www.easa.europa.eu/saf-registry-launch",
-    "keywords_matched": [
-      "SAF",
-      "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-03-26T16:42:42.513856+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
     ],
     "mode": "mock"
   }

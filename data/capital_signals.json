@@ -1,5 +1,26 @@
 [
   {
+    "timestamp": "2026-04-21T09:15:38.763419+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-20T09:30:18.729650+00:00",
     "source": "EU Global Gateway",
     "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
@@ -16,6 +37,44 @@
       "infrastructure"
     ],
     "relevance_score": 86,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-20T09:15:38.763436+00:00",
+    "source": "Climate Investment Funds",
+    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
+    "amount_usd": 15000000,
+    "funding_type": "Concessional Loan",
+    "url": "https://www.cif.org/act-biofuels",
+    "deadline": "2025-08-15",
+    "eligibility": [
+      "CIF eligible countries"
+    ],
+    "focus_areas": [
+      "just transition",
+      "biofuels",
+      "SAF"
+    ],
+    "relevance_score": 99,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-20T09:15:38.763432+00:00",
+    "source": "African Development Bank",
+    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
+    "amount_usd": 1000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.afdb.org/sefa-saf-feasibility",
+    "deadline": "2025-04-15",
+    "eligibility": [
+      "African Union Member States"
+    ],
+    "focus_areas": [
+      "feasibility study",
+      "SAF",
+      "aviation decarbonization"
+    ],
+    "relevance_score": 74,
     "mode": "mock"
   },
   {
@@ -37,6 +96,25 @@
       "climate mitigation"
     ],
     "relevance_score": 77,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-18T09:15:38.763427+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 83,
     "mode": "mock"
   },
   {
@@ -94,6 +172,25 @@
       "SAF"
     ],
     "relevance_score": 81,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-16T09:15:38.763399+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 86,
     "mode": "mock"
   },
   {
@@ -488,103 +585,6 @@
       "aviation decarbonization"
     ],
     "relevance_score": 71,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T09:08:06.611285+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 87,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T08:57:25.665263+00:00",
-    "source": "African Development Bank",
-    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
-    "amount_usd": 1000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.afdb.org/sefa-saf-feasibility",
-    "deadline": "2025-04-15",
-    "eligibility": [
-      "African Union Member States"
-    ],
-    "focus_areas": [
-      "feasibility study",
-      "SAF",
-      "aviation decarbonization"
-    ],
-    "relevance_score": 98,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T08:35:48.009118+00:00",
-    "source": "Shell Foundation",
-    "title": "Cassava-to-SAF Value Chain Development Grant",
-    "amount_usd": 750000,
-    "funding_type": "Grant",
-    "url": "https://shellfoundation.org/cassava-saf",
-    "deadline": "Rolling",
-    "eligibility": [
-      "Nigeria",
-      "Tanzania",
-      "Mozambique"
-    ],
-    "focus_areas": [
-      "cassava",
-      "value chain",
-      "SAF"
-    ],
-    "relevance_score": 84,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T08:29:31.326549+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 86,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-05T09:24:27.496503+00:00",
-    "source": "African Development Bank",
-    "title": "AfDB SEFA Grant for Sustainable Aviation Feasibility Studies",
-    "amount_usd": 1000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.afdb.org/sefa-saf-feasibility",
-    "deadline": "2025-04-15",
-    "eligibility": [
-      "African Union Member States"
-    ],
-    "focus_areas": [
-      "feasibility study",
-      "SAF",
-      "aviation decarbonization"
-    ],
-    "relevance_score": 87,
     "mode": "mock"
   }
 ]
