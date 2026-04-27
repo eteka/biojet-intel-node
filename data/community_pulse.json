@@ -13,6 +13,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-22T10:03:09.934139+00:00",
+      "source": "IITA Ibadan",
+      "signal_type": "Research Publication",
+      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Research",
+      "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-21T09:15:39.277063+00:00",
       "source": "Nigerian Tribune",
       "signal_type": "News Coverage",
@@ -34,6 +46,18 @@
       "region": "Nigeria National",
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-20T10:03:09.934175+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
       "mode": "mock"
     },
     {
@@ -70,6 +94,30 @@
       "region": "Nigeria National",
       "stakeholder_type": "Industry",
       "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-19T10:03:09.934162+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-18T10:03:09.934170+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
       "mode": "mock"
     },
     {
@@ -311,57 +359,29 @@
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-14T08:47:38.120021+00:00",
-      "source": "Premium Times",
-      "signal_type": "News Coverage",
-      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Industry",
-      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-14T08:39:28.485215+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-13T09:30:19.250752+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-13T09:24:28.048598+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-04-27T10:03:09.934181+00:00",
+      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
+      "theme": "Challenge",
+      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
+      "key_points": [
+        "Collection logistics remain the primary bottleneck—not feedstock availability",
+        "Inconsistent power supply raises production costs by 30-40%",
+        "Limited access to project finance creates a chicken-and-egg problem",
+        "Regulatory frameworks lag behind the technical possibilities"
+      ],
+      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
+      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
+      "estimated_word_count": 845,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-04-26T08:47:38.120026+00:00",
       "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-07T08:50:03.726741+00:00",
-      "title": "CORSIA and the Developing World: Opportunity or Burden?",
-      "theme": "Policy",
-      "hook": "The global carbon offsetting scheme for aviation could either propel or sideline developing country participation in SAF markets.",
-      "key_points": [
-        "CORSIA creates guaranteed demand for certified sustainable fuels",
-        "Certification costs may disadvantage smaller producers",
-        "Developed country mandates (ReFuelEU, US SAF credits) drive immediate demand",
-        "Africa remains largely absent from CORSIA eligible fuel production"
-      ],
-      "developing_country_angle": "While CORSIA was designed with environmental goals in mind, its implementation could inadvertently favor established players in wealthy nations. Developing countries must advocate for certification pathways that recognize their unique contexts.",
-      "call_to_action": "African negotiators at ICAO must push for simplified certification for small-scale producers and recognition of developmental co-benefits.",
-      "estimated_word_count": 1116,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
-    "overall": "Neutral",
-    "score": 38,
+    "overall": "Concerned",
+    "score": 19,
     "signal_count": 4,
-    "trend": "declining"
+    "trend": "improving"
   },
-  "last_updated": "2026-04-26T08:47:38.120473+00:00"
+  "last_updated": "2026-04-27T10:03:09.934647+00:00"
 }
