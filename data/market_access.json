@@ -66,6 +66,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-19T10:03:45.861903+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 65,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-19T09:21:04.725150+00:00",
       "airline": "Ethiopian Airlines",
       "region": "Africa",
@@ -311,22 +324,18 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 94,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-10T09:24:27.855127+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 92,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
+    {
+      "timestamp": "2026-04-27T10:03:45.861926+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-04-25T08:47:37.947982+00:00",
       "airport": "Accra Kotoka (ACC)",
@@ -452,16 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-02T09:09:55.678297+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-04-27T10:03:09.744168+00:00"
+  "last_updated": "2026-04-28T10:03:45.862181+00:00"
 }
