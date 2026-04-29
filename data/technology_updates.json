@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-04-24T09:55:08.304792+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-24T08:39:28.125577+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
@@ -69,6 +81,18 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-20T09:55:08.304815+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
     "mode": "mock"
   },
   {
@@ -177,6 +201,18 @@
     "url": "https://rsb.org/africa-certification",
     "significance": "Simplified sustainability certification for African producers",
     "impact_score": 82,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-15T09:55:08.304820+00:00",
+    "source": "LanzaJet",
+    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.lanzajet.com/georgia-commercial",
+    "significance": "First commercial-scale ATJ facility in the Americas",
+    "impact_score": 92,
     "mode": "mock"
   },
   {
@@ -441,42 +477,6 @@
     "url": "https://www.neste.com/singapore-expansion",
     "significance": "Largest SAF production facility globally",
     "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T10:03:09.567586+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T09:30:18.899795+00:00",
-    "source": "World Energy",
-    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.worldenergy.net/paramount-100-saf",
-    "significance": "First facility producing neat SAF at commercial scale",
-    "impact_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-06T08:47:37.781229+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
     "mode": "mock"
   }
 ]

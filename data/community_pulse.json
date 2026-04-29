@@ -25,6 +25,30 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-25T09:55:08.608136+00:00",
+      "source": "IITA Ibadan",
+      "signal_type": "Research Publication",
+      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Research",
+      "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-25T09:55:08.608129+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-23T08:47:38.119987+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -241,6 +265,30 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-16T09:55:08.608114+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-04-16T09:55:08.608084+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-16T09:09:55.859716+00:00",
       "source": "Cassava Farmers Association of Nigeria",
       "signal_type": "Survey Result",
@@ -289,7 +337,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-04-15T09:30:19.250740+00:00",
+      "timestamp": "2026-04-15T09:55:08.608123+00:00",
       "source": "Premium Times",
       "signal_type": "News Coverage",
       "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
@@ -301,55 +349,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-04-15T09:21:04.914194+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-15T09:16:29.616830+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-15T09:15:39.277085+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-15T09:09:55.859680+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-15T09:07:21.487370+00:00",
+      "timestamp": "2026-04-15T09:30:19.250740+00:00",
       "source": "Premium Times",
       "signal_type": "News Coverage",
       "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
@@ -362,6 +362,26 @@
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-04-29T09:55:08.608144+00:00",
+      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
+      "theme": "Challenge",
+      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
+      "key_points": [
+        "Collection logistics remain the primary bottleneck—not feedstock availability",
+        "Inconsistent power supply raises production costs by 30-40%",
+        "Limited access to project finance creates a chicken-and-egg problem",
+        "Regulatory frameworks lag behind the technical possibilities"
+      ],
+      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
+      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
+      "estimated_word_count": 986,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-04-28T10:03:46.041382+00:00",
       "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-09T08:57:26.157280+00:00",
-      "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
-      "theme": "Community",
-      "hook": "For millions of smallholder farmers, agricultural waste is a disposal headache. SAF could turn it into a steady income stream.",
-      "key_points": [
-        "Cassava processing generates 30-40% waste by weight",
-        "Current disposal methods include burning or dumping—both problematic",
-        "Biomass aggregation could add $200-500 annual income per farming household",
-        "Women, who dominate cassava processing, stand to benefit disproportionately"
-      ],
-      "developing_country_angle": "SAF production in developing countries isn't just about fuel—it's about rural economic transformation. The value chain creates jobs in collection, processing, and logistics that can't be automated or offshored.",
-      "call_to_action": "SAF project developers must design inclusive value chains that share benefits with farming communities—not just extract their resources.",
-      "estimated_word_count": 978,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
     "overall": "Neutral",
     "score": 30,
     "signal_count": 5,
-    "trend": "declining"
+    "trend": "improving"
   },
-  "last_updated": "2026-04-28T10:03:46.041836+00:00"
+  "last_updated": "2026-04-29T09:55:08.608570+00:00"
 }
