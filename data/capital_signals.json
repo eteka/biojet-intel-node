@@ -118,6 +118,25 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-04-24T09:24:03.818650+00:00",
+    "source": "Climate Investment Funds",
+    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
+    "amount_usd": 15000000,
+    "funding_type": "Concessional Loan",
+    "url": "https://www.cif.org/act-biofuels",
+    "deadline": "2025-08-15",
+    "eligibility": [
+      "CIF eligible countries"
+    ],
+    "focus_areas": [
+      "just transition",
+      "biofuels",
+      "SAF"
+    ],
+    "relevance_score": 86,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-23T10:03:45.492984+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -216,6 +235,27 @@
       "SAF"
     ],
     "relevance_score": 84,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-21T09:24:03.818631+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 72,
     "mode": "mock"
   },
   {
@@ -334,6 +374,27 @@
       "aviation decarbonization"
     ],
     "relevance_score": 74,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-19T09:24:03.818657+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 79,
     "mode": "mock"
   },
   {
@@ -532,65 +593,6 @@
       "aviation decarbonization"
     ],
     "relevance_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-17T09:21:04.361885+00:00",
-    "source": "IFC",
-    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
-    "amount_usd": 3000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.ifc.org/upstream-saf",
-    "deadline": "2025-07-01",
-    "eligibility": [
-      "IDA countries"
-    ],
-    "focus_areas": [
-      "project preparation",
-      "SAF",
-      "bankability"
-    ],
-    "relevance_score": 72,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-17T08:39:27.943636+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 84,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-17T08:35:42.925773+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 81,
     "mode": "mock"
   }
 ]
