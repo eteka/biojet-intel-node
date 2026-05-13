@@ -118,6 +118,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-04-30T10:10:53.823476+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 90,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-04-30T10:04:02.235956+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -311,19 +324,6 @@
       "relevance": "Major hub carrier with significant West African routes",
       "confidence_score": 71,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-22T09:19:35.921412+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 63,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -454,7 +454,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-04-21T09:55:08.454155+00:00",
+      "timestamp": "2026-04-21T10:10:53.823486+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
       "update_type": "Policy Announcement",
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-05-12T10:21:25.434200+00:00"
+  "last_updated": "2026-05-13T10:10:53.823779+00:00"
 }
