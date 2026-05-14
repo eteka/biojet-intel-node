@@ -264,6 +264,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-04-26T10:04:04.058846+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-04-25T10:06:43.438773+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
@@ -277,6 +289,18 @@
   },
   {
     "timestamp": "2026-04-25T10:06:43.438746+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-24T10:04:04.058874+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
     "pathway": "ETJ",
@@ -453,30 +477,6 @@
     "url": "https://www.astm.org/d7566-annex7-update",
     "significance": "Major regulatory milestone enabling higher ETJ blending",
     "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-21T10:21:25.272202+00:00",
-    "source": "Neste",
-    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Capacity Expansion",
-    "url": "https://www.neste.com/singapore-expansion",
-    "significance": "Largest SAF production facility globally",
-    "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-21T10:06:43.438780+00:00",
-    "source": "Neste",
-    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Capacity Expansion",
-    "url": "https://www.neste.com/singapore-expansion",
-    "significance": "Largest SAF production facility globally",
-    "impact_score": 88,
     "mode": "mock"
   }
 ]
