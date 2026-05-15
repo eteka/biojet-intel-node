@@ -79,6 +79,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-05T10:10:24.008554+00:00",
+      "airline": "Kenya Airways",
+      "region": "Africa",
+      "signal_type": "Partnership Announcement",
+      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
+      "volume_tonnes_annual": 25000,
+      "timeframe": "2025-2027",
+      "url": "https://www.kenya-airways.com/skynrg-partnership",
+      "relevance": "Regional carrier building SAF infrastructure",
+      "confidence_score": 75,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-05T09:19:35.921396+00:00",
       "airline": "Ethiopian Airlines",
       "region": "Africa",
@@ -311,19 +324,6 @@
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 87,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-04-25T08:39:28.301746+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 87,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-05-14T10:04:04.239159+00:00"
+  "last_updated": "2026-05-15T10:10:24.008831+00:00"
 }
