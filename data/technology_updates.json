@@ -120,6 +120,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-05-05T09:26:13.401265+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-05-03T10:21:25.272180+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -273,6 +285,18 @@
     "url": "https://www.worldenergy.net/paramount-100-saf",
     "significance": "First facility producing neat SAF at commercial scale",
     "impact_score": 90,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-04-27T09:26:13.401293+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -453,30 +477,6 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-23T08:47:37.781202+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-04-22T10:11:55.048976+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
     "mode": "mock"
   }
 ]
