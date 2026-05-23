@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-21T09:30:18.086926+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 75,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-19T10:39:25.342041+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -24,6 +37,19 @@
       "url": "https://www.qatarairways.com/net-zero-saf",
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 61,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-19T09:30:18.086934+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 94,
       "mode": "mock"
     },
     {
@@ -274,6 +300,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-05T09:30:18.086896+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 83,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-05T09:19:35.921396+00:00",
       "airline": "Ethiopian Airlines",
       "region": "Africa",
@@ -284,45 +323,6 @@
       "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
       "relevance": "Direct West African market access opportunity",
       "confidence_score": 60,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-04T10:51:38.072634+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 71,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-04T10:51:00.410282+00:00",
-      "airline": "Ethiopian Airlines",
-      "region": "Africa",
-      "signal_type": "SAF Commitment",
-      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
-      "volume_tonnes_annual": 50000,
-      "timeframe": "2025-2030",
-      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
-      "relevance": "Direct West African market access opportunity",
-      "confidence_score": 62,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-04T09:19:35.921404+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 89,
       "mode": "mock"
     }
   ],
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-05-22T10:39:25.342279+00:00"
+  "last_updated": "2026-05-23T09:30:18.087184+00:00"
 }

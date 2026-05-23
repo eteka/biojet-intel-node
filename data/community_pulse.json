@@ -1,6 +1,30 @@
 {
   "signals": [
     {
+      "timestamp": "2026-05-21T09:30:18.263202+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-21T09:30:18.263182+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-20T10:39:51.932826+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -34,6 +58,30 @@
       "region": "South-East Nigeria",
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-20T09:30:18.263210+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-19T09:30:18.263215+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
       "mode": "mock"
     },
     {
@@ -146,6 +194,18 @@
     },
     {
       "timestamp": "2026-05-13T10:04:04.428291+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-13T09:30:18.263219+00:00",
       "source": "Premium Times",
       "signal_type": "News Coverage",
       "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
@@ -299,69 +359,29 @@
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-09T09:05:47.163983+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-08T10:56:19.464263+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-08T10:04:04.428283+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-08T09:19:36.094897+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-07T10:21:25.603141+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-05-23T09:30:18.263225+00:00",
+      "title": "CORSIA and the Developing World: Opportunity or Burden?",
+      "theme": "Policy",
+      "hook": "The global carbon offsetting scheme for aviation could either propel or sideline developing country participation in SAF markets.",
+      "key_points": [
+        "CORSIA creates guaranteed demand for certified sustainable fuels",
+        "Certification costs may disadvantage smaller producers",
+        "Developed country mandates (ReFuelEU, US SAF credits) drive immediate demand",
+        "Africa remains largely absent from CORSIA eligible fuel production"
+      ],
+      "developing_country_angle": "While CORSIA was designed with environmental goals in mind, its implementation could inadvertently favor established players in wealthy nations. Developing countries must advocate for certification pathways that recognize their unique contexts.",
+      "call_to_action": "African negotiators at ICAO must push for simplified certification for small-scale producers and recognition of developmental co-benefits.",
+      "estimated_word_count": 834,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-05-22T10:39:25.504633+00:00",
       "title": "Why Africa Could Become the World's SAF Breadbasket",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-03T09:10:51.810109+00:00",
-      "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
-      "theme": "Community",
-      "hook": "For millions of smallholder farmers, agricultural waste is a disposal headache. SAF could turn it into a steady income stream.",
-      "key_points": [
-        "Cassava processing generates 30-40% waste by weight",
-        "Current disposal methods include burning or dumping—both problematic",
-        "Biomass aggregation could add $200-500 annual income per farming household",
-        "Women, who dominate cassava processing, stand to benefit disproportionately"
-      ],
-      "developing_country_angle": "SAF production in developing countries isn't just about fuel—it's about rural economic transformation. The value chain creates jobs in collection, processing, and logistics that can't be automated or offshored.",
-      "call_to_action": "SAF project developers must design inclusive value chains that share benefits with farming communities—not just extract their resources.",
-      "estimated_word_count": 1062,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
-    "overall": "Concerned",
-    "score": 17,
-    "signal_count": 3,
-    "trend": "declining"
+    "overall": "Neutral",
+    "score": 30,
+    "signal_count": 5,
+    "trend": "improving"
   },
-  "last_updated": "2026-05-22T10:39:25.505049+00:00"
+  "last_updated": "2026-05-23T09:30:18.263670+00:00"
 }
