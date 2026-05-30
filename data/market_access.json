@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-24T09:48:20.009413+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 90,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-24T09:46:05.794267+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -115,6 +128,19 @@
       "url": "https://www.qatarairways.com/net-zero-saf",
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 94,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-18T09:48:20.009447+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 83,
       "mode": "mock"
     },
     {
@@ -298,32 +324,6 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 75,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-10T10:51:00.410315+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 81,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-10T09:19:35.921408+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 62,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-05-29T11:16:53.020693+00:00"
+  "last_updated": "2026-05-30T09:48:20.009744+00:00"
 }
