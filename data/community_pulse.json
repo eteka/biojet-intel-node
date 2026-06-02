@@ -1,6 +1,18 @@
 {
   "signals": [
     {
+      "timestamp": "2026-06-02T11:55:26.689348+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-30T09:48:20.205206+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
@@ -22,6 +34,18 @@
       "region": "South-East Nigeria",
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-28T11:55:26.689345+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
       "mode": "mock"
     },
     {
@@ -98,6 +122,18 @@
     },
     {
       "timestamp": "2026-05-26T11:26:50.183400+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-25T11:55:26.689318+00:00",
       "source": "Rural Women Farmers Network",
       "signal_type": "Community Feedback",
       "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
@@ -277,6 +313,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-20T11:55:26.689352+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-20T11:26:29.154444+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -311,57 +359,29 @@
       "stakeholder_type": "Government",
       "key_insight": "State government showing interest in circular economy models",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-20T10:39:25.504627+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-20T09:30:18.263210+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-19T11:40:22.957702+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-19T09:48:20.205199+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-06-02T11:55:26.689358+00:00",
+      "title": "Leapfrogging: Can Africa Skip Fossil Jet Fuel Entirely?",
+      "theme": "Innovation",
+      "hook": "Some African airports have never had reliable jet fuel supply. What if they go straight to SAF?",
+      "key_points": [
+        "Many regional African airports lack established fuel infrastructure",
+        "Building SAF-ready facilities from scratch may be cheaper than retrofitting",
+        "Distributed production models could serve underserved airports",
+        "Mobile phone banking showed Africa can leapfrog traditional infrastructure"
+      ],
+      "developing_country_angle": "The absence of legacy infrastructure—often seen as a weakness—could become Africa's greatest strength in the SAF transition. Nations unencumbered by sunk costs in fossil fuel systems can design optimal SAF supply chains from the ground up.",
+      "call_to_action": "Aviation authorities should consider SAF-first policies for new airport infrastructure rather than replicating 20th-century fossil fuel designs.",
+      "estimated_word_count": 839,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-06-01T13:24:31.334057+00:00",
       "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-12T10:21:25.603156+00:00",
-      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
-      "theme": "Challenge",
-      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
-      "key_points": [
-        "Collection logistics remain the primary bottleneck—not feedstock availability",
-        "Inconsistent power supply raises production costs by 30-40%",
-        "Limited access to project finance creates a chicken-and-egg problem",
-        "Regulatory frameworks lag behind the technical possibilities"
-      ],
-      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
-      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
-      "estimated_word_count": 949,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
     "overall": "Neutral",
     "score": 30,
     "signal_count": 5,
-    "trend": "declining"
+    "trend": "improving"
   },
-  "last_updated": "2026-06-01T13:24:31.334467+00:00"
+  "last_updated": "2026-06-02T11:55:26.689756+00:00"
 }
