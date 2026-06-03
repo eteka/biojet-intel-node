@@ -84,6 +84,30 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-05-23T12:27:26.892931+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-05-21T12:27:26.892906+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-05-21T09:30:17.892072+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
@@ -445,30 +469,6 @@
   },
   {
     "timestamp": "2026-05-10T11:34:47.847513+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-10T10:51:00.256540+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-10T10:10:53.650340+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
     "pathway": "ETJ",
