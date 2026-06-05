@@ -48,6 +48,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-05-29T11:16:28.450865+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-05-27T11:26:28.778804+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
@@ -57,6 +69,18 @@
     "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
     "significance": "Opens pathway for African cassava-based SAF",
     "impact_score": 97,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-05-27T11:16:28.450836+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -445,30 +469,6 @@
   },
   {
     "timestamp": "2026-05-12T11:16:52.846165+00:00",
-    "source": "ICAO CORSIA",
-    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
-    "significance": "Opens pathway for African cassava-based SAF",
-    "impact_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-11T11:34:47.847508+00:00",
-    "source": "Argonne National Lab",
-    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Research",
-    "url": "https://greet.es.anl.gov/tropical-feedstocks",
-    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
-    "impact_score": 75,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-11T10:39:51.578068+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
     "pathway": "ETJ",

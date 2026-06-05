@@ -157,6 +157,32 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-05-23T11:16:28.644878+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 76,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-05-22T11:16:28.644907+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 61,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-05-22T10:39:25.342035+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -298,32 +324,6 @@
       "relevance": "Book-and-claim mechanism enables African origin supply",
       "confidence_score": 81,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-16T10:52:36.068311+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 84,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-16T10:05:14.055795+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 78,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-04T10:52:36.068537+00:00"
+  "last_updated": "2026-06-05T11:16:28.645205+00:00"
 }
