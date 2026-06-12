@@ -12,6 +12,17 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-09T02:32:48.128837+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-09T00:49:55.213802+00:00",
     "source": "NCAA",
     "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
@@ -43,6 +54,18 @@
       "LCAF",
       "aviation emissions",
       "carbon offset"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-06T19:32:48.128808+00:00",
+    "source": "ICAO",
+    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
+    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
+    "keywords_matched": [
+      "CORSIA",
+      "SAF",
+      "sustainable aviation fuel"
     ],
     "mode": "mock"
   },
@@ -556,29 +579,6 @@
     "keywords_matched": [
       "SAF",
       "sustainable aviation fuel",
-      "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-19T09:51:37.549734+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-18T14:39:51.228650+00:00",
-    "source": "EASA",
-    "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
-    "url": "https://www.easa.europa.eu/saf-registry-launch",
-    "keywords_matched": [
-      "SAF",
       "alternative fuel"
     ],
     "mode": "mock"
