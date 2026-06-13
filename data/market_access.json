@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-06-11T10:19:23.297315+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 65,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-09T11:32:48.692008+00:00",
       "airline": "Air Peace",
       "region": "West Africa",
@@ -311,19 +324,6 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 82,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-25T12:27:27.069911+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 90,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -445,16 +445,16 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-05-20T10:39:25.342054+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
+      "timestamp": "2026-05-21T10:19:23.297334+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
       "mode": "mock"
     },
     {
-      "timestamp": "2026-05-19T11:40:22.769279+00:00",
+      "timestamp": "2026-05-21T10:19:23.297325+00:00",
       "airport": "Lagos Murtala Muhammed (LOS)",
       "country": "Nigeria",
       "update_type": "Feasibility Study",
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-12T11:32:48.692279+00:00"
+  "last_updated": "2026-06-13T10:19:23.297579+00:00"
 }

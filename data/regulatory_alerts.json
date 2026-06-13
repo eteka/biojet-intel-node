@@ -12,6 +12,29 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-09T08:19:22.769484+00:00",
+    "source": "ICAO",
+    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
+    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
+    "keywords_matched": [
+      "LCAF",
+      "aviation emissions",
+      "carbon offset"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-09T06:19:22.769454+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-09T02:32:48.128837+00:00",
     "source": "NCAA",
     "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
@@ -30,6 +53,18 @@
     "keywords_matched": [
       "SAF",
       "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-08T03:19:22.769494+00:00",
+    "source": "EASA",
+    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
+    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel",
+      "alternative fuel"
     ],
     "mode": "mock"
   },
@@ -537,42 +572,6 @@
   },
   {
     "timestamp": "2026-05-21T22:39:24.863438+00:00",
-    "source": "EASA",
-    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
-    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel",
-      "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-20T18:46:05.312667+00:00",
-    "source": "ICAO",
-    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
-    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
-    "keywords_matched": [
-      "LCAF",
-      "aviation emissions",
-      "carbon offset"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-20T14:26:28.400232+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-05-19T11:56:18.719077+00:00",
     "source": "EASA",
     "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
     "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
