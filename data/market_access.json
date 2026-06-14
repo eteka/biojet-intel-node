@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-06-12T10:42:07.650750+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 63,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-11T10:19:23.297315+00:00",
       "airline": "Air Peace",
       "region": "West Africa",
@@ -311,19 +324,6 @@
       "relevance": "Direct investment in African SAF production",
       "confidence_score": 74,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-27T10:52:36.068306+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 82,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -379,6 +379,15 @@
       "update_type": "Infrastructure Investment",
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-06-02T10:42:07.650755+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
       "mode": "mock"
     },
     {
@@ -452,16 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-21T10:19:23.297325+00:00",
-      "airport": "Lagos Murtala Muhammed (LOS)",
-      "country": "Nigeria",
-      "update_type": "Feasibility Study",
-      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
-      "status": "Planning",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-13T10:19:23.297579+00:00"
+  "last_updated": "2026-06-14T10:42:07.651013+00:00"
 }
