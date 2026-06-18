@@ -183,6 +183,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-04T11:42:21.113551+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 73,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-04T11:28:50.586155+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -311,22 +324,18 @@
       "relevance": "Direct investment in African SAF production",
       "confidence_score": 84,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-01T09:51:11.960559+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 67,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
+    {
+      "timestamp": "2026-06-09T11:42:21.113568+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-06-08T11:32:48.692034+00:00",
       "airport": "Addis Ababa Bole (ADD)",
@@ -452,16 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-05-23T10:49:55.760053+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-17T12:08:06.657407+00:00"
+  "last_updated": "2026-06-18T11:42:21.113811+00:00"
 }
