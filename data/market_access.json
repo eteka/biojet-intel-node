@@ -53,6 +53,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-11T10:57:41.844319+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 78,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-11T10:23:49.886942+00:00",
       "airline": "Kenya Airways",
       "region": "Africa",
@@ -311,19 +324,6 @@
       "relevance": "Direct West African market access opportunity",
       "confidence_score": 79,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-02T11:55:26.534706+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 93,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-20T10:23:49.887174+00:00"
+  "last_updated": "2026-06-21T10:57:41.844574+00:00"
 }
