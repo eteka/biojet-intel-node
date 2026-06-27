@@ -346,6 +346,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-13T09:53:51.811896+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-12T10:51:37.261023+00:00",
       "airport": "Addis Ababa Bole (ADD)",
       "country": "Ethiopia",
@@ -452,16 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-03T11:28:50.586173+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-06-26T10:41:29.560902+00:00"
+  "last_updated": "2026-06-27T09:53:51.812133+00:00"
 }
