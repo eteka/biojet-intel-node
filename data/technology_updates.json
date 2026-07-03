@@ -12,6 +12,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-28T10:23:37.268028+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-27T10:59:41.229418+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
@@ -37,6 +49,18 @@
   },
   {
     "timestamp": "2026-06-26T12:20:44.516055+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-26T10:23:37.268059+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
     "pathway": "AtJ",
@@ -144,6 +168,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-19T10:23:37.268054+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-18T11:56:47.268973+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -213,6 +249,18 @@
     "url": "https://www.neste.com/singapore-expansion",
     "significance": "Largest SAF production facility globally",
     "impact_score": 88,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-16T10:23:37.268047+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
     "mode": "mock"
   },
   {
@@ -429,54 +477,6 @@
     "url": "https://gevo.com/net-zero-1-fid",
     "significance": "Major AtJ project advancement in the US",
     "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-11T12:20:44.516033+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-11T12:01:00.467291+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-11T11:56:47.269010+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-11T11:42:20.932265+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
     "mode": "mock"
   }
 ]
