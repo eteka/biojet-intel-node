@@ -24,6 +24,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-07T10:41:57.370666+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-06T10:42:31.802694+00:00",
     "source": "Argonne National Lab",
     "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
@@ -60,7 +72,31 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-02T10:41:57.370659+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-02T10:00:55.148414+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-07-01T10:41:57.370641+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
     "pathway": "ETJ",
@@ -441,42 +477,6 @@
     "url": "https://www.neste.com/singapore-expansion",
     "significance": "Largest SAF production facility globally",
     "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-16T10:23:37.268047+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-16T09:57:13.654338+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-15T12:08:06.483716+00:00",
-    "source": "Argonne National Lab",
-    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Research",
-    "url": "https://greet.es.anl.gov/tropical-feedstocks",
-    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
-    "impact_score": 75,
     "mode": "mock"
   }
 ]
