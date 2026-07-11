@@ -66,6 +66,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-05T09:13:46.850483+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 83,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-04T10:43:06.738135+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -209,6 +222,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-26T09:13:46.850504+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 74,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-25T12:20:44.694379+00:00",
       "airline": "British Airways",
       "region": "Europe",
@@ -298,32 +324,6 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 70,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-21T10:03:48.254713+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 61,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-20T09:57:13.835462+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 72,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -334,6 +334,15 @@
       "update_type": "Policy Announcement",
       "title": "Ghana Announces SAF Incentive Framework for Kotoka",
       "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-01T09:13:46.850518+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
       "mode": "mock"
     },
     {
@@ -400,6 +409,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-25T09:13:46.850514+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-24T11:52:50.872326+00:00",
       "airport": "Addis Ababa Bole (ADD)",
       "country": "Ethiopia",
@@ -443,25 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-20T10:38:14.159418+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-19T10:26:01.266773+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-07-10T10:41:57.523752+00:00"
+  "last_updated": "2026-07-11T09:13:46.850707+00:00"
 }
