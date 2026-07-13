@@ -156,6 +156,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-01T10:47:00.815538+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-01T10:41:57.370641+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
@@ -204,6 +216,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-29T10:47:00.815507+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-28T10:23:37.268028+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -240,6 +264,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-06-27T10:47:00.815531+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-06-27T10:18:27.241954+00:00",
     "source": "Argonne National Lab",
     "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
@@ -261,6 +297,18 @@
     "url": "https://gevo.com/net-zero-1-fid",
     "significance": "Major AtJ project advancement in the US",
     "impact_score": 85,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-26T10:47:00.815543+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
     "mode": "mock"
   },
   {
@@ -421,54 +469,6 @@
   },
   {
     "timestamp": "2026-06-21T09:40:40.213016+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-20T13:23:55.657326+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-20T10:46:23.390960+00:00",
-    "source": "World Energy",
-    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.worldenergy.net/paramount-100-saf",
-    "significance": "First facility producing neat SAF at commercial scale",
-    "impact_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-20T10:42:31.802724+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-20T10:23:49.726902+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
     "pathway": "Multiple",
