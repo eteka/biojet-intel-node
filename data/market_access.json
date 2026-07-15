@@ -40,6 +40,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-08T09:46:43.192910+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 63,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-07T10:41:57.523491+00:00",
       "airline": "Lufthansa Group",
       "region": "Europe",
@@ -76,6 +89,19 @@
       "url": "https://www.airfranceklm.com/saf-rfp-africa",
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 89,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-06T09:46:43.192957+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 76,
       "mode": "mock"
     },
     {
@@ -170,6 +196,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-03T09:46:43.192947+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 86,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-03T09:40:40.381344+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -261,6 +300,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-06-27T09:46:43.192964+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 71,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-06-26T10:59:41.403615+00:00",
       "airline": "Air France-KLM",
       "region": "Europe",
@@ -271,58 +323,6 @@
       "url": "https://www.airfranceklm.com/saf-rfp-africa",
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 92,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-26T10:46:23.568119+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 76,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-26T10:42:31.949181+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 83,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-26T10:42:31.949171+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 93,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-26T09:13:46.850504+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 74,
       "mode": "mock"
     }
   ],
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-07-14T09:43:26.954926+00:00"
+  "last_updated": "2026-07-15T09:46:43.193390+00:00"
 }

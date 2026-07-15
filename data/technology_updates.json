@@ -48,6 +48,30 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-08T09:46:42.990500+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-07-08T09:46:42.990463+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-08T09:43:26.789477+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -225,6 +249,18 @@
     "url": "https://greet.es.anl.gov/tropical-feedstocks",
     "significance": "Improved carbon intensity calculations for cassava and sugarcane",
     "impact_score": 75,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-06-30T09:46:42.990492+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
     "mode": "mock"
   },
   {
@@ -441,42 +477,6 @@
     "url": "https://rsb.org/africa-certification",
     "significance": "Simplified sustainability certification for African producers",
     "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-22T10:42:31.802718+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-22T10:41:29.381526+00:00",
-    "source": "World Energy",
-    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.worldenergy.net/paramount-100-saf",
-    "significance": "First facility producing neat SAF at commercial scale",
-    "impact_score": 90,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-22T09:40:40.213008+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
     "mode": "mock"
   }
 ]
