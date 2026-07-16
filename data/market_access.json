@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-07-14T09:53:09.399481+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 93,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-10T10:41:57.523498+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -183,6 +196,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-04T09:53:09.399489+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 75,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-03T10:00:55.335507+00:00",
       "airline": "Air Peace",
       "region": "West Africa",
@@ -298,32 +324,6 @@
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 64,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-27T09:46:43.192964+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 71,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-26T10:59:41.403615+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 92,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -346,7 +346,25 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-07T09:53:09.399527+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-06T09:40:40.381395+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-02T09:53:09.399506+00:00",
       "airport": "Lagos Murtala Muhammed (LOS)",
       "country": "Nigeria",
       "update_type": "Feasibility Study",
@@ -443,25 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-25T09:13:46.850514+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-06-24T11:52:50.872326+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-07-15T09:46:43.193390+00:00"
+  "last_updated": "2026-07-16T09:53:09.399938+00:00"
 }

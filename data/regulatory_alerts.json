@@ -1,5 +1,28 @@
 [
   {
+    "timestamp": "2026-07-15T01:53:08.913663+00:00",
+    "source": "EASA",
+    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
+    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-07-14T18:53:08.913689+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-13T22:46:42.639242+00:00",
     "source": "ICAO",
     "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
@@ -556,29 +579,6 @@
       "LCAF",
       "aviation emissions",
       "carbon offset"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-23T12:20:44.163410+00:00",
-    "source": "NCAA",
-    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
-    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-22T23:31:45.553680+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
     ],
     "mode": "mock"
   }
