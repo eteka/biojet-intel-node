@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-07-18T09:41:35.300669+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-11T09:43:35.062129+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -228,6 +240,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-04T09:41:35.300646+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-03T09:53:09.234361+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
@@ -453,30 +477,6 @@
     "url": "https://greet.es.anl.gov/tropical-feedstocks",
     "significance": "Improved carbon intensity calculations for cassava and sugarcane",
     "impact_score": 75,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-27T09:43:26.789472+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-06-26T12:20:44.516055+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
     "mode": "mock"
   }
 ]
