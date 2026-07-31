@@ -27,6 +27,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-25T10:25:57.355720+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 88,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-25T10:19:44.475379+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -311,19 +324,6 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 78,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-13T10:11:18.030631+00:00",
-      "airline": "Ethiopian Airlines",
-      "region": "Africa",
-      "signal_type": "SAF Commitment",
-      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
-      "volume_tonnes_annual": 50000,
-      "timeframe": "2025-2030",
-      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
-      "relevance": "Direct West African market access opportunity",
-      "confidence_score": 92,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -454,14 +454,14 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-07-06T10:11:38.649478+00:00",
-      "airport": "Lagos Murtala Muhammed (LOS)",
-      "country": "Nigeria",
-      "update_type": "Feasibility Study",
-      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
-      "status": "Planning",
+      "timestamp": "2026-07-06T10:25:57.355768+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-07-30T10:08:55.119751+00:00"
+  "last_updated": "2026-07-31T10:25:57.355965+00:00"
 }
