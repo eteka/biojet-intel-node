@@ -76,6 +76,25 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-02T10:23:29.545446+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 82,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-01T11:10:05.948234+00:00",
     "source": "Green Climate Fund",
     "title": "GCF Readiness Support for SAF Project Development in West Africa",
@@ -97,6 +116,25 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-01T10:23:29.545471+00:00",
+    "source": "Climate Investment Funds",
+    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
+    "amount_usd": 15000000,
+    "funding_type": "Concessional Loan",
+    "url": "https://www.cif.org/act-biofuels",
+    "deadline": "2025-08-15",
+    "eligibility": [
+      "CIF eligible countries"
+    ],
+    "focus_areas": [
+      "just transition",
+      "biofuels",
+      "SAF"
+    ],
+    "relevance_score": 92,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-31T10:24:59.312433+00:00",
     "source": "Climate Investment Funds",
     "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
@@ -113,6 +151,25 @@
       "SAF"
     ],
     "relevance_score": 99,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-07-31T10:23:29.545492+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 73,
     "mode": "mock"
   },
   {
@@ -272,6 +329,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-27T10:23:29.545488+00:00",
+    "source": "Shell Foundation",
+    "title": "Cassava-to-SAF Value Chain Development Grant",
+    "amount_usd": 750000,
+    "funding_type": "Grant",
+    "url": "https://shellfoundation.org/cassava-saf",
+    "deadline": "Rolling",
+    "eligibility": [
+      "Nigeria",
+      "Tanzania",
+      "Mozambique"
+    ],
+    "focus_areas": [
+      "cassava",
+      "value chain",
+      "SAF"
+    ],
+    "relevance_score": 78,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-26T09:46:29.160689+00:00",
     "source": "USAID Power Africa",
     "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
@@ -413,6 +491,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-07-24T10:23:29.545478+00:00",
+    "source": "Green Climate Fund",
+    "title": "GCF Readiness Support for SAF Project Development in West Africa",
+    "amount_usd": 2500000,
+    "funding_type": "Grant",
+    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
+    "deadline": "2025-06-30",
+    "eligibility": [
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "focus_areas": [
+      "SAF",
+      "biofuels",
+      "climate mitigation"
+    ],
+    "relevance_score": 91,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-07-24T10:04:25.342846+00:00",
     "source": "Green Climate Fund",
     "title": "GCF Readiness Support for SAF Project Development in West Africa",
@@ -492,107 +591,6 @@
       "rural electrification"
     ],
     "relevance_score": 86,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-23T10:04:25.342824+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-23T09:24:40.504778+00:00",
-    "source": "Shell Foundation",
-    "title": "Cassava-to-SAF Value Chain Development Grant",
-    "amount_usd": 750000,
-    "funding_type": "Grant",
-    "url": "https://shellfoundation.org/cassava-saf",
-    "deadline": "Rolling",
-    "eligibility": [
-      "Nigeria",
-      "Tanzania",
-      "Mozambique"
-    ],
-    "focus_areas": [
-      "cassava",
-      "value chain",
-      "SAF"
-    ],
-    "relevance_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-22T10:21:31.406142+00:00",
-    "source": "EU Global Gateway",
-    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
-    "amount_usd": 50000000,
-    "funding_type": "Blended Finance",
-    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
-    "deadline": "2025-09-01",
-    "eligibility": [
-      "ECOWAS countries"
-    ],
-    "focus_areas": [
-      "green hydrogen",
-      "SAF",
-      "infrastructure"
-    ],
-    "relevance_score": 83,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-22T10:19:44.125424+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 98,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-22T10:09:08.833294+00:00",
-    "source": "EU Global Gateway",
-    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
-    "amount_usd": 50000000,
-    "funding_type": "Blended Finance",
-    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
-    "deadline": "2025-09-01",
-    "eligibility": [
-      "ECOWAS countries"
-    ],
-    "focus_areas": [
-      "green hydrogen",
-      "SAF",
-      "infrastructure"
-    ],
-    "relevance_score": 95,
     "mode": "mock"
   }
 ]
