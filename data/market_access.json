@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-08-03T08:43:38.170992+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 68,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-02T10:23:29.902065+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -235,6 +248,32 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-07-23T08:43:38.171002+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 73,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-23T08:43:38.170969+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 62,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-07-22T10:24:59.639927+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -285,45 +324,6 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 83,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-21T10:04:25.664008+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 75,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-20T10:24:59.639956+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 66,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-19T10:23:29.902112+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 88,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -365,6 +365,15 @@
     },
     {
       "timestamp": "2026-07-23T09:46:29.480110+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-23T08:43:38.171019+00:00",
       "airport": "Addis Ababa Bole (ADD)",
       "country": "Ethiopia",
       "update_type": "Infrastructure Investment",
@@ -452,16 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-15T10:11:38.649490+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-08-06T10:23:29.902399+00:00"
+  "last_updated": "2026-08-07T08:43:38.171216+00:00"
 }
