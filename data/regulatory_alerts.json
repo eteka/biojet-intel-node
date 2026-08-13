@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-08-08T05:59:48.645761+00:00",
+    "source": "EASA",
+    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
+    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-07T13:41:14.846955+00:00",
     "source": "ICAO",
     "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
@@ -19,6 +31,17 @@
     "keywords_matched": [
       "SAF",
       "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-08-06T19:59:48.645789+00:00",
+    "source": "EASA",
+    "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
+    "url": "https://www.easa.europa.eu/saf-registry-launch",
+    "keywords_matched": [
+      "SAF",
+      "alternative fuel"
     ],
     "mode": "mock"
   },
@@ -550,30 +573,6 @@
       "LCAF",
       "aviation emissions",
       "carbon offset"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-17T09:09:08.674600+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-07-16T15:13:17.992289+00:00",
-    "source": "ICAO",
-    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
-    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
-    "keywords_matched": [
-      "CORSIA",
-      "SAF",
-      "sustainable aviation fuel"
     ],
     "mode": "mock"
   }

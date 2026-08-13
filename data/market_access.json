@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-08-07T08:59:49.165923+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 62,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-05T08:27:32.715465+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -311,19 +324,6 @@
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 74,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-24T10:59:26.376696+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 89,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -338,6 +338,15 @@
     },
     {
       "timestamp": "2026-08-07T08:25:11.539631+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-08-03T08:59:49.165947+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
       "update_type": "Policy Announcement",
@@ -388,6 +397,15 @@
       "update_type": "Policy Announcement",
       "title": "Ghana Announces SAF Incentive Framework for Kotoka",
       "status": "Policy Development",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-07-27T08:59:49.165942+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
       "mode": "mock"
     },
     {
@@ -443,25 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-22T09:48:53.316663+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-22T09:47:21.350576+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-08-12T08:57:52.334339+00:00"
+  "last_updated": "2026-08-13T08:59:49.166209+00:00"
 }
