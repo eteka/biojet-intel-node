@@ -355,6 +355,15 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-08-06T08:20:43.227094+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-03T08:59:49.165947+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
@@ -452,16 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-07-23T09:46:29.480110+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-08-17T08:28:28.129046+00:00"
+  "last_updated": "2026-08-18T08:20:43.227363+00:00"
 }
