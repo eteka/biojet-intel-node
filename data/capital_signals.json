@@ -1,5 +1,24 @@
 [
   {
+    "timestamp": "2026-08-18T08:21:32.962369+00:00",
+    "source": "IFC",
+    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
+    "amount_usd": 3000000,
+    "funding_type": "Technical Assistance",
+    "url": "https://www.ifc.org/upstream-saf",
+    "deadline": "2025-07-01",
+    "eligibility": [
+      "IDA countries"
+    ],
+    "focus_areas": [
+      "project preparation",
+      "SAF",
+      "bankability"
+    ],
+    "relevance_score": 86,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-17T08:28:27.698405+00:00",
     "source": "Shell Foundation",
     "title": "Cassava-to-SAF Value Chain Development Grant",
@@ -80,6 +99,27 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-15T08:21:32.962348+00:00",
+    "source": "USAID Power Africa",
+    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
+    "amount_usd": 5000000,
+    "funding_type": "Grant",
+    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
+    "deadline": "2025-05-20",
+    "eligibility": [
+      "Nigeria",
+      "Kenya",
+      "South Africa"
+    ],
+    "focus_areas": [
+      "bioenergy",
+      "feedstock processing",
+      "rural electrification"
+    ],
+    "relevance_score": 98,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-14T08:28:27.698402+00:00",
     "source": "IFC",
     "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
@@ -155,6 +195,25 @@
       "bankability"
     ],
     "relevance_score": 71,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-08-11T08:21:32.962364+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 93,
     "mode": "mock"
   },
   {
@@ -538,65 +597,6 @@
       "aviation decarbonization"
     ],
     "relevance_score": 84,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-04T08:27:32.388224+00:00",
-    "source": "EU Global Gateway",
-    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
-    "amount_usd": 50000000,
-    "funding_type": "Blended Finance",
-    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
-    "deadline": "2025-09-01",
-    "eligibility": [
-      "ECOWAS countries"
-    ],
-    "focus_areas": [
-      "green hydrogen",
-      "SAF",
-      "infrastructure"
-    ],
-    "relevance_score": 96,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-04T08:13:17.544615+00:00",
-    "source": "USAID Power Africa",
-    "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
-    "amount_usd": 5000000,
-    "funding_type": "Grant",
-    "url": "https://www.usaid.gov/powerafrica/bioenergy-saf",
-    "deadline": "2025-05-20",
-    "eligibility": [
-      "Nigeria",
-      "Kenya",
-      "South Africa"
-    ],
-    "focus_areas": [
-      "bioenergy",
-      "feedstock processing",
-      "rural electrification"
-    ],
-    "relevance_score": 75,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-03T10:21:31.406149+00:00",
-    "source": "IFC",
-    "title": "IFC Upstream: Early-Stage SAF Project Preparation Facility",
-    "amount_usd": 3000000,
-    "funding_type": "Technical Assistance",
-    "url": "https://www.ifc.org/upstream-saf",
-    "deadline": "2025-07-01",
-    "eligibility": [
-      "IDA countries"
-    ],
-    "focus_areas": [
-      "project preparation",
-      "SAF",
-      "bankability"
-    ],
-    "relevance_score": 85,
     "mode": "mock"
   }
 ]
