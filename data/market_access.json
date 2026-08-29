@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-08-26T13:26:35.691360+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 77,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-24T08:27:11.710784+00:00",
       "airline": "Ethiopian Airlines",
       "region": "Africa",
@@ -131,6 +144,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-08-18T13:26:35.691394+00:00",
+      "airline": "Kenya Airways",
+      "region": "Africa",
+      "signal_type": "Partnership Announcement",
+      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
+      "volume_tonnes_annual": 25000,
+      "timeframe": "2025-2027",
+      "url": "https://www.kenya-airways.com/skynrg-partnership",
+      "relevance": "Regional carrier building SAF infrastructure",
+      "confidence_score": 74,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-17T08:28:28.128784+00:00",
       "airline": "Kenya Airways",
       "region": "Africa",
@@ -167,6 +193,19 @@
       "url": "https://www.lufthansagroup.com/saf-africa-offtake",
       "relevance": "Book-and-claim mechanism enables African origin supply",
       "confidence_score": 73,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-08-15T13:26:35.691386+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 85,
       "mode": "mock"
     },
     {
@@ -284,45 +323,6 @@
       "url": "https://www.kenya-airways.com/skynrg-partnership",
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 75,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-11T19:42:04.995037+00:00",
-      "airline": "Qatar Airways",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
-      "volume_tonnes_annual": 150000,
-      "timeframe": "2028-2035",
-      "url": "https://www.qatarairways.com/net-zero-saf",
-      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
-      "confidence_score": 88,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-09T08:33:46.315066+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 64,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-09T08:28:28.128791+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 90,
       "mode": "mock"
     }
   ],
@@ -445,7 +445,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-08-04T08:22:20.157026+00:00",
+      "timestamp": "2026-08-04T13:26:35.691405+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
       "update_type": "Policy Announcement",
@@ -454,7 +454,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-08-03T08:59:49.165947+00:00",
+      "timestamp": "2026-08-04T08:22:20.157026+00:00",
       "airport": "Accra Kotoka (ACC)",
       "country": "Ghana",
       "update_type": "Policy Announcement",
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-08-28T19:42:04.995274+00:00"
+  "last_updated": "2026-08-29T13:26:35.691668+00:00"
 }
