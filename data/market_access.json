@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-09-01T12:50:15.017932+00:00",
+      "airline": "Air Peace",
+      "region": "West Africa",
+      "signal_type": "MoU Signed",
+      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
+      "volume_tonnes_annual": 15000,
+      "timeframe": "2026-2028",
+      "url": "https://www.flyairpeace.com/saf-mou",
+      "relevance": "Nigerian carrier commitment - key local demand signal",
+      "confidence_score": 81,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-28T13:22:44.360559+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -235,6 +248,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-08-16T12:50:15.017924+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 79,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-08-16T08:27:55.997049+00:00",
       "airline": "Lufthansa Group",
       "region": "Europe",
@@ -297,32 +323,6 @@
       "url": "https://www.emirates.com/sustainability/saf-africa",
       "relevance": "Major hub carrier with significant West African routes",
       "confidence_score": 78,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-14T08:14:58.277981+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 72,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-14T08:14:17.541958+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 89,
       "mode": "mock"
     }
   ],
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-08-31T15:34:59.576677+00:00"
+  "last_updated": "2026-09-01T12:50:15.018203+00:00"
 }
