@@ -48,6 +48,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-25T12:18:41.811750+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-24T12:18:08.331563+00:00",
     "source": "ASTM International",
     "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
@@ -276,6 +288,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-15T12:18:41.811771+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-15T08:27:55.822609+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
@@ -453,30 +477,6 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-12T08:55:10.173703+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-12T08:33:46.147990+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
     "mode": "mock"
   }
 ]
