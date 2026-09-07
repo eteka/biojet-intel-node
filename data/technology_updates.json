@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-09-05T13:44:50.781461+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-31T11:47:20.460366+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
@@ -144,6 +156,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-22T13:44:50.781473+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-22T12:50:14.849376+00:00",
     "source": "World Energy",
     "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
@@ -204,6 +228,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-20T13:44:50.781438+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-20T11:26:18.502873+00:00",
     "source": "ICAO CORSIA",
     "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
@@ -213,6 +249,18 @@
     "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
     "significance": "Opens pathway for African cassava-based SAF",
     "impact_score": 97,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-08-19T13:44:50.781468+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -429,54 +477,6 @@
     "url": "https://gevo.com/net-zero-1-fid",
     "significance": "Major AtJ project advancement in the US",
     "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-14T08:14:58.147393+00:00",
-    "source": "ICAO CORSIA",
-    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
-    "significance": "Opens pathway for African cassava-based SAF",
-    "impact_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-13T19:42:04.880761+00:00",
-    "source": "ICAO CORSIA",
-    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
-    "significance": "Opens pathway for African cassava-based SAF",
-    "impact_score": 97,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-13T12:20:23.698341+00:00",
-    "source": "Neste",
-    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Capacity Expansion",
-    "url": "https://www.neste.com/singapore-expansion",
-    "significance": "Largest SAF production facility globally",
-    "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-13T08:24:04.683491+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
     "mode": "mock"
   }
 ]
