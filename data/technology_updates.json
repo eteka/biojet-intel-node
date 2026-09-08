@@ -72,6 +72,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-25T12:20:04.130207+00:00",
+    "source": "Argonne National Lab",
+    "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Research",
+    "url": "https://greet.es.anl.gov/tropical-feedstocks",
+    "significance": "Improved carbon intensity calculations for cassava and sugarcane",
+    "impact_score": 75,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-25T12:18:41.811750+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
@@ -312,6 +324,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-08-18T12:20:04.130230+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-08-17T12:18:08.331587+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
@@ -445,30 +469,6 @@
   },
   {
     "timestamp": "2026-08-15T08:24:04.683485+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-15T08:22:20.023172+00:00",
-    "source": "ASTM International",
-    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.astm.org/d7566-annex7-update",
-    "significance": "Major regulatory milestone enabling higher ETJ blending",
-    "impact_score": 95,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-08-15T08:14:17.377253+00:00",
     "source": "Gevo",
     "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
     "pathway": "AtJ",
