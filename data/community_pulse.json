@@ -1,6 +1,30 @@
 {
   "signals": [
     {
+      "timestamp": "2026-09-13T14:30:41.580821+00:00",
+      "source": "Cassava Farmers Association of Nigeria",
+      "signal_type": "Survey Result",
+      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
+      "sentiment": "Very Positive",
+      "sentiment_score": 0,
+      "region": "South-South Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Price guarantees and consistent offtake are primary motivators",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-13T14:30:41.580817+00:00",
+      "source": "IITA Ibadan",
+      "signal_type": "Research Publication",
+      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Research",
+      "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-13T12:53:36.761802+00:00",
       "source": "Nigerian Tribune",
       "signal_type": "News Coverage",
@@ -25,6 +49,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-09-11T14:30:41.580824+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-10T12:24:01.949027+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -34,6 +70,18 @@
       "region": "Nigeria National",
       "stakeholder_type": "Research",
       "key_insight": "Available feedstock may be 40% higher than current estimates",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-08T14:30:41.580790+00:00",
+      "source": "Rural Women Farmers Network",
+      "signal_type": "Community Feedback",
+      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-East Nigeria",
+      "stakeholder_type": "Farmers",
+      "key_insight": "Strong interest but capacity building needed",
       "mode": "mock"
     },
     {
@@ -82,6 +130,18 @@
       "region": "South-East Nigeria",
       "stakeholder_type": "Farmers",
       "key_insight": "Strong interest but capacity building needed",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-05T14:30:41.580811+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
       "mode": "mock"
     },
     {
@@ -299,69 +359,29 @@
       "stakeholder_type": "Farmers",
       "key_insight": "Price guarantees and consistent offtake are primary motivators",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-31T11:45:33.073676+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-30T15:34:59.744182+00:00",
-      "source": "IITA Ibadan",
-      "signal_type": "Research Publication",
-      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Research",
-      "key_insight": "Available feedstock may be 40% higher than current estimates",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-30T13:44:51.118221+00:00",
-      "source": "Aggregator Network WhatsApp Group",
-      "signal_type": "Informal Signal",
-      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
-      "sentiment": "Concerned",
-      "sentiment_score": 75,
-      "region": "North-Central Nigeria",
-      "stakeholder_type": "Aggregators",
-      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-30T13:22:44.532109+00:00",
-      "source": "Rural Women Farmers Network",
-      "signal_type": "Community Feedback",
-      "title": "Women-Led Cooperatives Seek Training on Biomass Quality Standards",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-East Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Strong interest but capacity building needed",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-30T12:31:46.863602+00:00",
-      "source": "Nigerian Tribune",
-      "signal_type": "News Coverage",
-      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "South-West Nigeria",
-      "stakeholder_type": "Government",
-      "key_insight": "State government showing interest in circular economy models",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-09-14T14:30:41.580830+00:00",
+      "title": "Leapfrogging: Can Africa Skip Fossil Jet Fuel Entirely?",
+      "theme": "Innovation",
+      "hook": "Some African airports have never had reliable jet fuel supply. What if they go straight to SAF?",
+      "key_points": [
+        "Many regional African airports lack established fuel infrastructure",
+        "Building SAF-ready facilities from scratch may be cheaper than retrofitting",
+        "Distributed production models could serve underserved airports",
+        "Mobile phone banking showed Africa can leapfrog traditional infrastructure"
+      ],
+      "developing_country_angle": "The absence of legacy infrastructure—often seen as a weakness—could become Africa's greatest strength in the SAF transition. Nations unencumbered by sunk costs in fossil fuel systems can design optimal SAF supply chains from the ground up.",
+      "call_to_action": "Aviation authorities should consider SAF-first policies for new airport infrastructure rather than replicating 20th-century fossil fuel designs.",
+      "estimated_word_count": 943,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-09-13T12:53:36.761824+00:00",
       "title": "Leapfrogging: Can Africa Skip Fossil Jet Fuel Entirely?",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-25T08:27:11.840774+00:00",
-      "title": "The Infrastructure Gap: What's Really Holding Back African SAF",
-      "theme": "Challenge",
-      "hook": "Nigeria produces enough cassava waste to fuel every flight departing Lagos. So why isn't it happening yet?",
-      "key_points": [
-        "Collection logistics remain the primary bottleneck—not feedstock availability",
-        "Inconsistent power supply raises production costs by 30-40%",
-        "Limited access to project finance creates a chicken-and-egg problem",
-        "Regulatory frameworks lag behind the technical possibilities"
-      ],
-      "developing_country_angle": "Developing nations face a classic infrastructure paradox: they need SAF plants to justify grid investments, but need reliable power to attract SAF investments. Breaking this cycle requires creative financing and phased development approaches.",
-      "call_to_action": "Success will come to nations that address infrastructure holistically—not just building plants, but building the ecosystems around them.",
-      "estimated_word_count": 811,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
-    "overall": "Concerned",
-    "score": 20,
+    "overall": "Neutral",
+    "score": 30,
     "signal_count": 5,
-    "trend": "stable"
+    "trend": "declining"
   },
-  "last_updated": "2026-09-13T12:53:36.762287+00:00"
+  "last_updated": "2026-09-14T14:30:41.581202+00:00"
 }
