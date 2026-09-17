@@ -1,6 +1,18 @@
 {
   "signals": [
     {
+      "timestamp": "2026-09-14T12:50:17.590367+00:00",
+      "source": "Nigerian Tribune",
+      "signal_type": "News Coverage",
+      "title": "Oyo State Explores Cassava Waste-to-Fuel Initiative",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "South-West Nigeria",
+      "stakeholder_type": "Government",
+      "key_insight": "State government showing interest in circular economy models",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-13T14:30:41.580821+00:00",
       "source": "Cassava Farmers Association of Nigeria",
       "signal_type": "Survey Result",
@@ -109,6 +121,18 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-09-10T12:50:17.590359+00:00",
+      "source": "Aggregator Network WhatsApp Group",
+      "signal_type": "Informal Signal",
+      "title": "Logistics Costs Remain Primary Barrier for Rural Biomass Collection",
+      "sentiment": "Concerned",
+      "sentiment_score": 75,
+      "region": "North-Central Nigeria",
+      "stakeholder_type": "Aggregators",
+      "key_insight": "Transportation infrastructure gaps limiting collection efficiency",
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-10T12:24:01.949027+00:00",
       "source": "IITA Ibadan",
       "signal_type": "Research Publication",
@@ -182,6 +206,18 @@
     },
     {
       "timestamp": "2026-09-07T12:20:04.524088+00:00",
+      "source": "Premium Times",
+      "signal_type": "News Coverage",
+      "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
+      "sentiment": "Positive",
+      "sentiment_score": 25,
+      "region": "Nigeria National",
+      "stakeholder_type": "Industry",
+      "key_insight": "Growing awareness of SAF opportunity among aviation sector",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-06T12:50:17.590334+00:00",
       "source": "Premium Times",
       "signal_type": "News Coverage",
       "title": "Aviation Stakeholders Call for SAF Policy Framework in Nigeria",
@@ -323,45 +359,29 @@
       "stakeholder_type": "Industry",
       "key_insight": "Growing awareness of SAF opportunity among aviation sector",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-03T11:26:18.821058+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-03T11:26:18.821048+00:00",
-      "source": "IITA Ibadan",
-      "signal_type": "Research Publication",
-      "title": "Study: Cassava Processing Residue Volumes Exceed Previous Estimates",
-      "sentiment": "Positive",
-      "sentiment_score": 25,
-      "region": "Nigeria National",
-      "stakeholder_type": "Research",
-      "key_insight": "Available feedstock may be 40% higher than current estimates",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-02T12:53:58.778108+00:00",
-      "source": "Cassava Farmers Association of Nigeria",
-      "signal_type": "Survey Result",
-      "title": "80% of Cassava Farmers Open to Biomass Aggregation Schemes",
-      "sentiment": "Very Positive",
-      "sentiment_score": 0,
-      "region": "South-South Nigeria",
-      "stakeholder_type": "Farmers",
-      "key_insight": "Price guarantees and consistent offtake are primary motivators",
-      "mode": "mock"
     }
   ],
   "editorials": [
+    {
+      "timestamp": "2026-09-17T12:50:17.590373+00:00",
+      "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
+      "theme": "Community",
+      "hook": "For millions of smallholder farmers, agricultural waste is a disposal headache. SAF could turn it into a steady income stream.",
+      "key_points": [
+        "Cassava processing generates 30-40% waste by weight",
+        "Current disposal methods include burning or dumping—both problematic",
+        "Biomass aggregation could add $200-500 annual income per farming household",
+        "Women, who dominate cassava processing, stand to benefit disproportionately"
+      ],
+      "developing_country_angle": "SAF production in developing countries isn't just about fuel—it's about rural economic transformation. The value chain creates jobs in collection, processing, and logistics that can't be automated or offshored.",
+      "call_to_action": "SAF project developers must design inclusive value chains that share benefits with farming communities—not just extract their resources.",
+      "estimated_word_count": 1165,
+      "target_audience": "SAF industry stakeholders, policymakers, investors",
+      "geographic_focus": "Africa, with emphasis on West Africa",
+      "author": "SAF HUB Editorial Desk",
+      "status": "draft",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-09-16T12:53:58.778149+00:00",
       "title": "CORSIA and the Developing World: Opportunity or Burden?",
@@ -741,33 +761,13 @@
       "author": "SAF HUB Editorial Desk",
       "status": "draft",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-28T19:42:05.108992+00:00",
-      "title": "From Waste to Wings: How SAF Could Transform Rural African Livelihoods",
-      "theme": "Community",
-      "hook": "For millions of smallholder farmers, agricultural waste is a disposal headache. SAF could turn it into a steady income stream.",
-      "key_points": [
-        "Cassava processing generates 30-40% waste by weight",
-        "Current disposal methods include burning or dumping—both problematic",
-        "Biomass aggregation could add $200-500 annual income per farming household",
-        "Women, who dominate cassava processing, stand to benefit disproportionately"
-      ],
-      "developing_country_angle": "SAF production in developing countries isn't just about fuel—it's about rural economic transformation. The value chain creates jobs in collection, processing, and logistics that can't be automated or offshored.",
-      "call_to_action": "SAF project developers must design inclusive value chains that share benefits with farming communities—not just extract their resources.",
-      "estimated_word_count": 961,
-      "target_audience": "SAF industry stakeholders, policymakers, investors",
-      "geographic_focus": "Africa, with emphasis on West Africa",
-      "author": "SAF HUB Editorial Desk",
-      "status": "draft",
-      "mode": "mock"
     }
   ],
   "sentiment_summary": {
     "overall": "Neutral",
-    "score": 30,
-    "signal_count": 5,
-    "trend": "improving"
+    "score": 42,
+    "signal_count": 3,
+    "trend": "stable"
   },
-  "last_updated": "2026-09-16T12:53:58.778620+00:00"
+  "last_updated": "2026-09-17T12:50:17.590822+00:00"
 }
