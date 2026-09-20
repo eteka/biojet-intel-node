@@ -40,6 +40,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-09-13T12:42:19.165066+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 60,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-11T12:53:36.595923+00:00",
       "airline": "Ethiopian Airlines",
       "region": "Africa",
@@ -311,22 +324,18 @@
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 90,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-02T11:26:18.661584+00:00",
-      "airline": "Lufthansa Group",
-      "region": "Europe",
-      "signal_type": "Offtake Agreement",
-      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
-      "volume_tonnes_annual": 80000,
-      "timeframe": "2026-2031",
-      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
-      "relevance": "Book-and-claim mechanism enables African origin supply",
-      "confidence_score": 81,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
+    {
+      "timestamp": "2026-09-16T12:42:19.165077+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-09-16T12:06:29.703997+00:00",
       "airport": "Addis Ababa Bole (ADD)",
@@ -452,16 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-08-28T12:06:29.703991+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-09-19T12:06:29.704221+00:00"
+  "last_updated": "2026-09-20T12:42:19.165347+00:00"
 }
