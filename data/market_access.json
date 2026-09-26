@@ -14,6 +14,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-09-24T12:31:44.126229+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 91,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-23T13:04:10.527932+00:00",
       "airline": "Lufthansa Group",
       "region": "Europe",
@@ -76,6 +89,19 @@
       "url": "https://www.kenya-airways.com/skynrg-partnership",
       "relevance": "Regional carrier building SAF infrastructure",
       "confidence_score": 70,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-15T12:31:44.126253+00:00",
+      "airline": "Kenya Airways",
+      "region": "Africa",
+      "signal_type": "Partnership Announcement",
+      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
+      "volume_tonnes_annual": 25000,
+      "timeframe": "2025-2027",
+      "url": "https://www.kenya-airways.com/skynrg-partnership",
+      "relevance": "Regional carrier building SAF infrastructure",
+      "confidence_score": 63,
       "mode": "mock"
     },
     {
@@ -298,32 +324,6 @@
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 93,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-06T12:06:29.703968+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 74,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-06T11:47:20.651158+00:00",
-      "airline": "Ethiopian Airlines",
-      "region": "Africa",
-      "signal_type": "SAF Commitment",
-      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
-      "volume_tonnes_annual": 50000,
-      "timeframe": "2025-2030",
-      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
-      "relevance": "Direct West African market access opportunity",
-      "confidence_score": 67,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-09-25T13:04:10.528151+00:00"
+  "last_updated": "2026-09-26T12:31:44.126494+00:00"
 }
