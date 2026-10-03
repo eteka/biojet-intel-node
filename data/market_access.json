@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-10-03T12:48:16.313993+00:00",
+      "airline": "Emirates",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
+      "volume_tonnes_annual": 200000,
+      "timeframe": "2030-2035",
+      "url": "https://www.emirates.com/sustainability/saf-africa",
+      "relevance": "Major hub carrier with significant West African routes",
+      "confidence_score": 90,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-29T14:52:56.245987+00:00",
       "airline": "Qatar Airways",
       "region": "Middle East",
@@ -50,6 +63,19 @@
       "url": "https://www.emirates.com/sustainability/saf-africa",
       "relevance": "Major hub carrier with significant West African routes",
       "confidence_score": 75,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-26T12:48:16.314014+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 85,
       "mode": "mock"
     },
     {
@@ -154,6 +180,19 @@
       "url": "https://www.iairgroup.com/saf-africa-investment",
       "relevance": "Direct investment in African SAF production",
       "confidence_score": 94,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-20T12:48:16.314020+00:00",
+      "airline": "Kenya Airways",
+      "region": "Africa",
+      "signal_type": "Partnership Announcement",
+      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
+      "volume_tonnes_annual": 25000,
+      "timeframe": "2025-2027",
+      "url": "https://www.kenya-airways.com/skynrg-partnership",
+      "relevance": "Regional carrier building SAF infrastructure",
+      "confidence_score": 86,
       "mode": "mock"
     },
     {
@@ -285,50 +324,29 @@
       "relevance": "European carrier seeking African feedstock supply",
       "confidence_score": 78,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-13T13:04:51.853792+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 66,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-13T12:42:19.165066+00:00",
-      "airline": "Air France-KLM",
-      "region": "Europe",
-      "signal_type": "Offtake RFP",
-      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
-      "volume_tonnes_annual": 100000,
-      "timeframe": "2026-2030",
-      "url": "https://www.airfranceklm.com/saf-rfp-africa",
-      "relevance": "European carrier seeking African feedstock supply",
-      "confidence_score": 60,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-11T14:14:32.272992+00:00",
-      "airline": "Air Peace",
-      "region": "West Africa",
-      "signal_type": "MoU Signed",
-      "title": "Air Peace Signs MoU for Nigerian-Produced SAF",
-      "volume_tonnes_annual": 15000,
-      "timeframe": "2026-2028",
-      "url": "https://www.flyairpeace.com/saf-mou",
-      "relevance": "Nigerian carrier commitment - key local demand signal",
-      "confidence_score": 82,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
     {
       "timestamp": "2026-09-27T14:24:34.072747+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-25T12:48:16.314025+00:00",
+      "airport": "Lagos Murtala Muhammed (LOS)",
+      "country": "Nigeria",
+      "update_type": "Feasibility Study",
+      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
+      "status": "Planning",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-09-24T12:48:16.314036+00:00",
       "airport": "Addis Ababa Bole (ADD)",
       "country": "Ethiopia",
       "update_type": "Infrastructure Investment",
@@ -443,25 +461,7 @@
       "title": "Bole Airport to Install SAF Blending Facility by 2027",
       "status": "Approved",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-12T11:45:32.908566+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-11T14:30:41.191067+00:00",
-      "airport": "Lagos Murtala Muhammed (LOS)",
-      "country": "Nigeria",
-      "update_type": "Feasibility Study",
-      "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
-      "status": "Planning",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-10-02T14:14:32.273259+00:00"
+  "last_updated": "2026-10-03T12:48:16.314232+00:00"
 }
