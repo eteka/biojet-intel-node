@@ -1,5 +1,16 @@
 [
   {
+    "timestamp": "2026-10-04T03:31:35.968065+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-10-01T19:14:31.769950+00:00",
     "source": "NCAA",
     "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
@@ -100,6 +111,18 @@
       "LCAF",
       "aviation emissions",
       "carbon offset"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-09-27T02:31:35.968030+00:00",
+    "source": "ICAO",
+    "title": "CORSIA Implementation Update: New SAF Sustainability Criteria",
+    "url": "https://www.icao.int/environmental-protection/corsia/saf-criteria-2025",
+    "keywords_matched": [
+      "CORSIA",
+      "SAF",
+      "sustainable aviation fuel"
     ],
     "mode": "mock"
   },
@@ -546,30 +569,6 @@
   },
   {
     "timestamp": "2026-09-10T22:50:16.874636+00:00",
-    "source": "ICAO",
-    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
-    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
-    "keywords_matched": [
-      "LCAF",
-      "aviation emissions",
-      "carbon offset"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-10T04:50:16.874661+00:00",
-    "source": "EASA",
-    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
-    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel",
-      "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-09T04:26:06.376411+00:00",
     "source": "ICAO",
     "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
     "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",

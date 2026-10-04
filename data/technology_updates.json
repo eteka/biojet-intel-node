@@ -24,6 +24,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-09-29T13:31:36.297918+00:00",
+    "source": "LanzaJet",
+    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.lanzajet.com/georgia-commercial",
+    "significance": "First commercial-scale ATJ facility in the Americas",
+    "impact_score": 92,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-09-28T14:20:35.097038+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
@@ -57,6 +69,30 @@
     "url": "https://www.lanzajet.com/georgia-commercial",
     "significance": "First commercial-scale ATJ facility in the Americas",
     "impact_score": 92,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-09-25T13:31:36.297906+00:00",
+    "source": "RSB",
+    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
+    "pathway": "Multiple",
+    "pathway_full": "Multiple",
+    "update_type": "Certification",
+    "url": "https://rsb.org/africa-certification",
+    "significance": "Simplified sustainability certification for African producers",
+    "impact_score": 82,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-09-24T13:31:36.297881+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
     "mode": "mock"
   },
   {
@@ -117,6 +153,18 @@
     "url": "https://rsb.org/africa-certification",
     "significance": "Simplified sustainability certification for African producers",
     "impact_score": 82,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-09-22T13:31:36.297913+00:00",
+    "source": "Neste",
+    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Capacity Expansion",
+    "url": "https://www.neste.com/singapore-expansion",
+    "significance": "Largest SAF production facility globally",
+    "impact_score": 88,
     "mode": "mock"
   },
   {
@@ -421,54 +469,6 @@
   },
   {
     "timestamp": "2026-09-13T14:30:40.879126+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-13T14:24:33.971756+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-13T12:57:42.816247+00:00",
-    "source": "Gevo",
-    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Investment",
-    "url": "https://gevo.com/net-zero-1-fid",
-    "significance": "Major AtJ project advancement in the US",
-    "impact_score": 85,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-12T16:09:06.781570+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-09-12T13:22:20.143473+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
     "pathway": "AtJ",
