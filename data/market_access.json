@@ -92,6 +92,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-09-29T14:02:24.754135+00:00",
+      "airline": "Air France-KLM",
+      "region": "Europe",
+      "signal_type": "Offtake RFP",
+      "title": "Air France-KLM Issues RFP for African-Origin SAF Supply",
+      "volume_tonnes_annual": 100000,
+      "timeframe": "2026-2030",
+      "url": "https://www.airfranceklm.com/saf-rfp-africa",
+      "relevance": "European carrier seeking African feedstock supply",
+      "confidence_score": 92,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-09-28T16:09:06.947628+00:00",
       "airline": "Kenya Airways",
       "region": "Africa",
@@ -311,19 +324,6 @@
       "relevance": "Nigerian carrier commitment - key local demand signal",
       "confidence_score": 70,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-09-20T13:22:20.492619+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 94,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-10-09T14:44:55.550713+00:00"
+  "last_updated": "2026-10-10T14:02:24.754346+00:00"
 }
