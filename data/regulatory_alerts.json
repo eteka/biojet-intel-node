@@ -1,5 +1,17 @@
 [
   {
+    "timestamp": "2026-10-28T20:42:56.015256+00:00",
+    "source": "EASA",
+    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
+    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel",
+      "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-10-26T00:37:02.500010+00:00",
     "source": "ICAO",
     "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
@@ -24,6 +36,17 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-10-24T04:42:56.015282+00:00",
+    "source": "NCAA",
+    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
+    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
+    "keywords_matched": [
+      "SAF",
+      "sustainable aviation fuel"
+    ],
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-10-24T03:49:03.290102+00:00",
     "source": "EASA",
     "title": "European SAF Registry Launch: Tracking Alternative Fuel Production",
@@ -31,6 +54,18 @@
     "keywords_matched": [
       "SAF",
       "alternative fuel"
+    ],
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-10-23T22:42:56.015286+00:00",
+    "source": "ICAO",
+    "title": "LCAF Forum Announces New Aviation Emissions Monitoring Protocols",
+    "url": "https://www.icao.int/environmental-protection/lcaf-emissions-protocols",
+    "keywords_matched": [
+      "LCAF",
+      "aviation emissions",
+      "carbon offset"
     ],
     "mode": "mock"
   },
@@ -541,40 +576,6 @@
       "SAF",
       "sustainable aviation fuel",
       "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-04T19:04:52.615208+00:00",
-    "source": "EASA",
-    "title": "ReFuelEU Aviation: Updated Guidance on SAF Blending Mandates",
-    "url": "https://www.easa.europa.eu/refueleu-aviation-saf-guidance",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel",
-      "alternative fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-04T14:44:55.031809+00:00",
-    "source": "NCAA",
-    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
-    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel"
-    ],
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-04T03:31:35.968065+00:00",
-    "source": "NCAA",
-    "title": "NCAA Publishes Draft SAF Certification Framework for Nigerian Operators",
-    "url": "https://www.ncaa.gov.ng/saf-certification-draft-2025",
-    "keywords_matched": [
-      "SAF",
-      "sustainable aviation fuel"
     ],
     "mode": "mock"
   }
