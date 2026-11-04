@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-11-02T15:49:26.879717+00:00",
+      "airline": "Qatar Airways",
+      "region": "Middle East",
+      "signal_type": "SAF Commitment",
+      "title": "Qatar Airways Announces Net Zero Plan with African SAF Component",
+      "volume_tonnes_annual": 150000,
+      "timeframe": "2028-2035",
+      "url": "https://www.qatarairways.com/net-zero-saf",
+      "relevance": "Major Middle Eastern carrier with Africa hub strategy",
+      "confidence_score": 93,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-11-01T17:30:18.387126+00:00",
       "airline": "British Airways",
       "region": "Europe",
@@ -50,6 +63,19 @@
       "url": "https://www.qatarairways.com/net-zero-saf",
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 76,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-10-27T15:49:26.879725+00:00",
+      "airline": "Ethiopian Airlines",
+      "region": "Africa",
+      "signal_type": "SAF Commitment",
+      "title": "Ethiopian Airlines Commits to 10% SAF by 2030",
+      "volume_tonnes_annual": 50000,
+      "timeframe": "2025-2030",
+      "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
+      "relevance": "Direct West African market access opportunity",
+      "confidence_score": 79,
       "mode": "mock"
     },
     {
@@ -298,35 +324,27 @@
       "relevance": "Major Middle Eastern carrier with Africa hub strategy",
       "confidence_score": 80,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-17T12:13:45.884405+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 77,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-16T13:05:46.168612+00:00",
-      "airline": "Emirates",
-      "region": "Middle East",
-      "signal_type": "SAF Commitment",
-      "title": "Emirates Targets 50% SAF Blend for Africa Routes by 2035",
-      "volume_tonnes_annual": 200000,
-      "timeframe": "2030-2035",
-      "url": "https://www.emirates.com/sustainability/saf-africa",
-      "relevance": "Major hub carrier with significant West African routes",
-      "confidence_score": 79,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
+    {
+      "timestamp": "2026-11-04T15:49:26.879739+00:00",
+      "airport": "Addis Ababa Bole (ADD)",
+      "country": "Ethiopia",
+      "update_type": "Infrastructure Investment",
+      "title": "Bole Airport to Install SAF Blending Facility by 2027",
+      "status": "Approved",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-11-02T15:49:26.879735+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
+      "mode": "mock"
+    },
     {
       "timestamp": "2026-11-02T15:32:17.760127+00:00",
       "airport": "Lagos Murtala Muhammed (LOS)",
@@ -443,25 +461,7 @@
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-09T15:04:19.375604+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-09T14:38:48.421585+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
-      "mode": "mock"
     }
   ],
-  "last_updated": "2026-11-03T15:32:17.760341+00:00"
+  "last_updated": "2026-11-04T15:49:26.879982+00:00"
 }
