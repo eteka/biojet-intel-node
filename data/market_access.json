@@ -144,6 +144,19 @@
       "mode": "mock"
     },
     {
+      "timestamp": "2026-10-26T14:28:04.362946+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 70,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-10-25T15:32:17.760095+00:00",
       "airline": "Air Peace",
       "region": "West Africa",
@@ -311,19 +324,6 @@
       "relevance": "Direct West African market access opportunity",
       "confidence_score": 86,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-20T13:41:34.623108+00:00",
-      "airline": "Kenya Airways",
-      "region": "Africa",
-      "signal_type": "Partnership Announcement",
-      "title": "Kenya Airways Partners with SkyNRG for SAF Supply Chain Study",
-      "volume_tonnes_annual": 25000,
-      "timeframe": "2025-2027",
-      "url": "https://www.kenya-airways.com/skynrg-partnership",
-      "relevance": "Regional carrier building SAF infrastructure",
-      "confidence_score": 70,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -352,6 +352,15 @@
       "update_type": "Feasibility Study",
       "title": "Lagos Airport Begins SAF Blending Infrastructure Study",
       "status": "Planning",
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-10-30T14:28:04.362954+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
       "mode": "mock"
     },
     {
@@ -436,16 +445,7 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-10-11T14:37:03.002486+00:00",
-      "airport": "Accra Kotoka (ACC)",
-      "country": "Ghana",
-      "update_type": "Policy Announcement",
-      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
-      "status": "Policy Development",
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-10-11T13:57:45.947139+00:00",
+      "timestamp": "2026-10-13T14:28:04.362951+00:00",
       "airport": "Lagos Murtala Muhammed (LOS)",
       "country": "Nigeria",
       "update_type": "Feasibility Study",
@@ -454,14 +454,14 @@
       "mode": "mock"
     },
     {
-      "timestamp": "2026-10-10T14:37:43.779770+00:00",
-      "airport": "Addis Ababa Bole (ADD)",
-      "country": "Ethiopia",
-      "update_type": "Infrastructure Investment",
-      "title": "Bole Airport to Install SAF Blending Facility by 2027",
-      "status": "Approved",
+      "timestamp": "2026-10-11T14:37:03.002486+00:00",
+      "airport": "Accra Kotoka (ACC)",
+      "country": "Ghana",
+      "update_type": "Policy Announcement",
+      "title": "Ghana Announces SAF Incentive Framework for Kotoka",
+      "status": "Policy Development",
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-11-06T15:26:39.067903+00:00"
+  "last_updated": "2026-11-07T14:28:04.363166+00:00"
 }
