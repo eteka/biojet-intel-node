@@ -24,6 +24,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-10-31T14:36:47.029480+00:00",
+    "source": "ASTM International",
+    "title": "ASTM D7566 Annex 7 Updated: Increased ETJ Blend Limit to 50%",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.astm.org/d7566-annex7-update",
+    "significance": "Major regulatory milestone enabling higher ETJ blending",
+    "impact_score": 95,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-10-31T14:34:34.588162+00:00",
     "source": "Argonne National Lab",
     "title": "GREET Model Update: Revised LCA for Tropical Feedstocks",
@@ -225,6 +237,18 @@
     "url": "https://www.worldenergy.net/paramount-100-saf",
     "significance": "First facility producing neat SAF at commercial scale",
     "impact_score": 90,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-10-20T14:36:47.029459+00:00",
+    "source": "ICAO CORSIA",
+    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
+    "pathway": "ETJ",
+    "pathway_full": "Ethanol-to-Jet",
+    "update_type": "Certification",
+    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
+    "significance": "Opens pathway for African cassava-based SAF",
+    "impact_score": 97,
     "mode": "mock"
   },
   {
@@ -453,30 +477,6 @@
     "url": "https://www.neste.com/singapore-expansion",
     "significance": "Largest SAF production facility globally",
     "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-13T12:47:03.819696+00:00",
-    "source": "Neste",
-    "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
-    "pathway": "HEFA",
-    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
-    "update_type": "Capacity Expansion",
-    "url": "https://www.neste.com/singapore-expansion",
-    "significance": "Largest SAF production facility globally",
-    "impact_score": 88,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-12T17:30:18.209353+00:00",
-    "source": "ICAO CORSIA",
-    "title": "CORSIA Eligible Fuels: New Cassava Ethanol Pathway Approved",
-    "pathway": "ETJ",
-    "pathway_full": "Ethanol-to-Jet",
-    "update_type": "Certification",
-    "url": "https://www.icao.int/corsia/eligible-fuels-cassava",
-    "significance": "Opens pathway for African cassava-based SAF",
-    "impact_score": 97,
     "mode": "mock"
   }
 ]
