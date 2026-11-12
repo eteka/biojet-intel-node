@@ -1,5 +1,24 @@
 [
   {
+    "timestamp": "2026-11-11T16:23:58.455013+00:00",
+    "source": "EU Global Gateway",
+    "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
+    "amount_usd": 50000000,
+    "funding_type": "Blended Finance",
+    "url": "https://ec.europa.eu/global-gateway/africa-saf-corridor",
+    "deadline": "2025-09-01",
+    "eligibility": [
+      "ECOWAS countries"
+    ],
+    "focus_areas": [
+      "green hydrogen",
+      "SAF",
+      "infrastructure"
+    ],
+    "relevance_score": 72,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-11-07T15:53:21.168415+00:00",
     "source": "USAID Power Africa",
     "title": "Off-Grid Bioenergy for SAF Feedstock Processing",
@@ -138,6 +157,27 @@
       "bankability"
     ],
     "relevance_score": 89,
+    "mode": "mock"
+  },
+  {
+    "timestamp": "2026-11-03T16:23:58.455002+00:00",
+    "source": "Green Climate Fund",
+    "title": "GCF Readiness Support for SAF Project Development in West Africa",
+    "amount_usd": 2500000,
+    "funding_type": "Grant",
+    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
+    "deadline": "2025-06-30",
+    "eligibility": [
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "focus_areas": [
+      "SAF",
+      "biofuels",
+      "climate mitigation"
+    ],
+    "relevance_score": 84,
     "mode": "mock"
   },
   {
@@ -413,6 +453,25 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-10-30T16:23:58.455009+00:00",
+    "source": "Climate Investment Funds",
+    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
+    "amount_usd": 15000000,
+    "funding_type": "Concessional Loan",
+    "url": "https://www.cif.org/act-biofuels",
+    "deadline": "2025-08-15",
+    "eligibility": [
+      "CIF eligible countries"
+    ],
+    "focus_areas": [
+      "just transition",
+      "biofuels",
+      "SAF"
+    ],
+    "relevance_score": 86,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-10-30T15:52:16.345887+00:00",
     "source": "EU Global Gateway",
     "title": "Team Europe Initiative: African Green Hydrogen and SAF Corridor",
@@ -532,65 +591,6 @@
       "SAF"
     ],
     "relevance_score": 77,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-29T17:30:18.031281+00:00",
-    "source": "Green Climate Fund",
-    "title": "GCF Readiness Support for SAF Project Development in West Africa",
-    "amount_usd": 2500000,
-    "funding_type": "Grant",
-    "url": "https://www.greenclimate.fund/project/readiness-saf-west-africa",
-    "deadline": "2025-06-30",
-    "eligibility": [
-      "Nigeria",
-      "Ghana",
-      "Senegal"
-    ],
-    "focus_areas": [
-      "SAF",
-      "biofuels",
-      "climate mitigation"
-    ],
-    "relevance_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-28T17:53:55.182705+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 70,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-28T15:53:21.168387+00:00",
-    "source": "Climate Investment Funds",
-    "title": "CIF Accelerating Coal Transition - Biofuels Alternative Track",
-    "amount_usd": 15000000,
-    "funding_type": "Concessional Loan",
-    "url": "https://www.cif.org/act-biofuels",
-    "deadline": "2025-08-15",
-    "eligibility": [
-      "CIF eligible countries"
-    ],
-    "focus_areas": [
-      "just transition",
-      "biofuels",
-      "SAF"
-    ],
-    "relevance_score": 74,
     "mode": "mock"
   }
 ]
