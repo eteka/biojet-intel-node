@@ -156,6 +156,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-11-08T19:35:04.917521+00:00",
+    "source": "Gevo",
+    "title": "Gevo Net-Zero 1 Project Secures Final Investment Decision",
+    "pathway": "AtJ",
+    "pathway_full": "Alcohol-to-Jet",
+    "update_type": "Investment",
+    "url": "https://gevo.com/net-zero-1-fid",
+    "significance": "Major AtJ project advancement in the US",
+    "impact_score": 85,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-11-08T17:35:59.661934+00:00",
     "source": "Neste",
     "title": "Neste Singapore Expansion: 1.3M Tonnes SAF Capacity by 2026",
@@ -324,6 +336,18 @@
     "mode": "mock"
   },
   {
+    "timestamp": "2026-11-02T19:35:04.917541+00:00",
+    "source": "World Energy",
+    "title": "World Energy Achieves 100% SAF Production at Paramount Facility",
+    "pathway": "HEFA",
+    "pathway_full": "Hydroprocessed Esters and Fatty Acids",
+    "update_type": "Commercial Milestone",
+    "url": "https://www.worldenergy.net/paramount-100-saf",
+    "significance": "First facility producing neat SAF at commercial scale",
+    "impact_score": 90,
+    "mode": "mock"
+  },
+  {
     "timestamp": "2026-11-02T15:40:35.155480+00:00",
     "source": "LanzaJet",
     "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
@@ -445,30 +469,6 @@
   },
   {
     "timestamp": "2026-10-30T14:35:19.969160+00:00",
-    "source": "RSB",
-    "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
-    "pathway": "Multiple",
-    "pathway_full": "Multiple",
-    "update_type": "Certification",
-    "url": "https://rsb.org/africa-certification",
-    "significance": "Simplified sustainability certification for African producers",
-    "impact_score": 82,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-29T17:53:55.311635+00:00",
-    "source": "LanzaJet",
-    "title": "LanzaJet Georgia Plant Achieves First Commercial ATJ Production",
-    "pathway": "AtJ",
-    "pathway_full": "Alcohol-to-Jet",
-    "update_type": "Commercial Milestone",
-    "url": "https://www.lanzajet.com/georgia-commercial",
-    "significance": "First commercial-scale ATJ facility in the Americas",
-    "impact_score": 92,
-    "mode": "mock"
-  },
-  {
-    "timestamp": "2026-10-28T16:23:58.618429+00:00",
     "source": "RSB",
     "title": "Roundtable on Sustainable Biomaterials: New African Certification Scheme",
     "pathway": "Multiple",
