@@ -1,6 +1,19 @@
 {
   "airline_signals": [
     {
+      "timestamp": "2026-11-27T16:27:18.123784+00:00",
+      "airline": "British Airways",
+      "region": "Europe",
+      "signal_type": "Investment",
+      "title": "IAG Invests in African Biomass-to-SAF Developer",
+      "volume_tonnes_annual": 75000,
+      "timeframe": "2027-2032",
+      "url": "https://www.iairgroup.com/saf-africa-investment",
+      "relevance": "Direct investment in African SAF production",
+      "confidence_score": 67,
+      "mode": "mock"
+    },
+    {
       "timestamp": "2026-11-24T19:09:29.289866+00:00",
       "airline": "Emirates",
       "region": "Middle East",
@@ -50,6 +63,19 @@
       "url": "https://www.ethiopianairlines.com/sustainability/saf-commitment",
       "relevance": "Direct West African market access opportunity",
       "confidence_score": 67,
+      "mode": "mock"
+    },
+    {
+      "timestamp": "2026-11-18T16:27:18.123780+00:00",
+      "airline": "Lufthansa Group",
+      "region": "Europe",
+      "signal_type": "Offtake Agreement",
+      "title": "Lufthansa Signs Long-Term SAF Offtake with Book-and-Claim for Africa",
+      "volume_tonnes_annual": 80000,
+      "timeframe": "2026-2031",
+      "url": "https://www.lufthansagroup.com/saf-africa-offtake",
+      "relevance": "Book-and-claim mechanism enables African origin supply",
+      "confidence_score": 70,
       "mode": "mock"
     },
     {
@@ -298,32 +324,6 @@
       "relevance": "Major hub carrier with significant West African routes",
       "confidence_score": 61,
       "mode": "mock"
-    },
-    {
-      "timestamp": "2026-11-09T18:14:17.695602+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 74,
-      "mode": "mock"
-    },
-    {
-      "timestamp": "2026-11-09T17:41:49.128757+00:00",
-      "airline": "British Airways",
-      "region": "Europe",
-      "signal_type": "Investment",
-      "title": "IAG Invests in African Biomass-to-SAF Developer",
-      "volume_tonnes_annual": 75000,
-      "timeframe": "2027-2032",
-      "url": "https://www.iairgroup.com/saf-africa-investment",
-      "relevance": "Direct investment in African SAF production",
-      "confidence_score": 61,
-      "mode": "mock"
     }
   ],
   "airport_updates": [
@@ -463,5 +463,5 @@
       "mode": "mock"
     }
   ],
-  "last_updated": "2026-11-27T17:41:49.129054+00:00"
+  "last_updated": "2026-11-28T16:27:18.123966+00:00"
 }
